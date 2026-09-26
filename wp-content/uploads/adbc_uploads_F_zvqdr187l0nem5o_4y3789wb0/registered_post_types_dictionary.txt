@@ -1,0 +1,1 @@
+{"scheduled-action":["p:modula-best-grid-gallery"],"modula-gallery":["p:modula-best-grid-gallery"],"op_global_element":["p:op-builder"],"op_typography_preset":["p:op-builder"],"testimonial":["p:wp-testimonial-with-widget"],"wpcode":["p:insert-headers-and-footers"],"wpcf7_contact_form":["p:contact-form-7"]}

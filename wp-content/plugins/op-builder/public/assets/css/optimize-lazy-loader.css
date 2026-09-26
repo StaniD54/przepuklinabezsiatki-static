@@ -1,0 +1,1 @@
+html[data-op3-support~=no-js] .oll[src^="data:image/svg+xml"]{display:none!important}html[data-op3-support~=js] .oll-css,html[data-op3-support~=js] .oll-css::after,html[data-op3-support~=js] .oll-css::before{background-image:none!important}

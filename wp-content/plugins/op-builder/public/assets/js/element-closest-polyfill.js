@@ -1,0 +1,1 @@
+Element.prototype.closest||(Element.prototype.closest=function(e){var t=this;do{if(Element.prototype.matches.call(t,e))return t;t=t.parentElement||t.parentNode}while(null!==t&&t.nodeType===Node.ELEMENT_NODE);return null});

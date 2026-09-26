@@ -1,0 +1,2427 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Smart Theme v3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-01-15 11:10+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.14; wp-6.7.1\n"
+"X-Domain: op3_smart"
+
+#: inc/redux-sections/blog.php:734
+msgctxt "Blog Archive Layout"
+msgid "Archive Hero Size"
+msgstr ""
+
+#: inc/redux-sections/blog.php:682 inc/redux-sections/blog.php:689
+msgctxt "Blog Archive Layout"
+msgid "Blog Archive Layout"
+msgstr ""
+
+#: inc/redux-sections/blog.php:705
+msgctxt "Blog Archive Layout"
+msgid "Blog Archive Sidebar"
+msgstr ""
+
+#: inc/redux-sections/blog.php:706
+msgctxt "Blog Archive Layout"
+msgid "Choose position of a sidebar"
+msgstr ""
+
+#: inc/redux-sections/blog.php:697
+msgctxt "Blog Archive Layout"
+msgid "Grid Post Layout"
+msgstr ""
+
+#: inc/redux-sections/blog.php:726
+msgctxt "Blog Archive Layout"
+msgid "Hide Category and Tag Labels in Archive Hero Section"
+msgstr ""
+
+#: inc/redux-sections/blog.php:736
+msgctxt "Blog Archive Layout"
+msgid "Large"
+msgstr ""
+
+#: inc/redux-sections/blog.php:693
+msgctxt "Blog Archive Layout"
+msgid "List Post Layout"
+msgstr ""
+
+#: inc/redux-sections/blog.php:710
+msgctxt "Blog Archive Layout"
+msgid "No Sidebar"
+msgstr ""
+
+#: inc/redux-sections/blog.php:714
+msgctxt "Blog Archive Layout"
+msgid "Sidebar Left"
+msgstr ""
+
+#: inc/redux-sections/blog.php:718
+msgctxt "Blog Archive Layout"
+msgid "Sidebar Right"
+msgstr ""
+
+#: inc/redux-sections/blog.php:735
+msgctxt "Blog Archive Layout"
+msgid "Small"
+msgstr ""
+
+#: inc/redux-sections/blog.php:20
+msgctxt "Blog General"
+msgid "Author"
+msgstr ""
+
+#: inc/redux-sections/blog.php:21
+msgctxt "Blog General"
+msgid "Categories"
+msgstr ""
+
+#: inc/redux-sections/blog.php:17
+msgctxt "Blog General"
+msgid ""
+"Check the boxes to show these elements across your blog including blog posts "
+"and archive pages."
+msgstr ""
+
+#: inc/redux-sections/blog.php:19
+msgctxt "Blog General"
+msgid "Date"
+msgstr ""
+
+#: inc/redux-sections/blog.php:9
+msgctxt "Blog General"
+msgid "General"
+msgstr ""
+
+#: inc/redux-sections/blog.php:46
+msgctxt "Blog General"
+msgid "Hide all comments from blog all blog posts"
+msgstr ""
+
+#: inc/redux-sections/blog.php:45
+msgctxt "Blog General"
+msgid "Hide Blog Comments"
+msgstr ""
+
+#: inc/redux-sections/blog.php:16
+msgctxt "Blog General"
+msgid "Metadata Options"
+msgstr ""
+
+#: inc/redux-sections/blog.php:37
+msgctxt "Blog General"
+msgid ""
+"Please note that you need to have <a href=\"https://wordpress."
+"org/plugins/jetpack/\" target=\"_blank\" rel=\"noopener\">Jetpack by "
+"WordPress.com</a> plugin installed and activated for Infinite Scroll to work."
+msgstr ""
+
+#: inc/redux-sections/blog.php:24
+msgctxt "Blog General"
+msgid "Tags"
+msgstr ""
+
+#: inc/redux-sections/blog.php:36
+msgctxt "Blog General"
+msgid "Use Jetpack Infinite Scroll"
+msgstr ""
+
+#: inc/redux-sections/blog.php:163
+msgctxt "Blog Homepage Hero"
+msgid "Alignment"
+msgstr ""
+
+#: inc/redux-sections/blog.php:252
+msgctxt "Blog Homepage Hero"
+msgid "Border Only"
+msgstr ""
+
+#: inc/redux-sections/blog.php:297
+msgctxt "Blog Homepage Hero"
+msgid "Button Background Colour"
+msgstr ""
+
+#: inc/redux-sections/blog.php:313
+msgctxt "Blog Homepage Hero"
+msgid "Button Hover Background Colour"
+msgstr ""
+
+#: inc/redux-sections/blog.php:269
+msgctxt "Blog Homepage Hero"
+msgid "Button Link"
+msgstr ""
+
+#: inc/redux-sections/blog.php:243
+msgctxt "Blog Homepage Hero"
+msgid "Button Style"
+msgstr ""
+
+#: inc/redux-sections/blog.php:261
+msgctxt "Blog Homepage Hero"
+msgid "Button Text"
+msgstr ""
+
+#: inc/redux-sections/blog.php:276
+msgctxt "Blog Homepage Hero"
+msgid "Button Text Colour"
+msgstr ""
+
+#: inc/redux-sections/blog.php:501
+msgctxt "Blog Homepage Hero"
+msgid "Button Typography"
+msgstr ""
+
+#: inc/redux-sections/blog.php:172
+msgctxt "Blog Homepage Hero"
+msgid "Center"
+msgstr ""
+
+#: inc/redux-sections/blog.php:333
+msgctxt "Blog Homepage Hero"
+msgid "Default will use settings set in the <em>Blog Post Hero</em> section."
+msgstr ""
+
+#: inc/redux-sections/blog.php:481
+msgctxt "Blog Homepage Hero"
+msgid "Description Typography"
+msgstr ""
+
+#: inc/redux-sections/blog.php:142 inc/redux-sections/blog.php:208
+msgctxt "Blog Homepage Hero"
+msgid "Featured Post"
+msgstr ""
+
+#: inc/redux-sections/blog.php:332
+msgctxt "Blog Homepage Hero"
+msgid "Hero Background Behaviour"
+msgstr ""
+
+#: inc/redux-sections/blog.php:344 inc/redux-sections/blog.php:391
+msgctxt "Blog Homepage Hero"
+msgid "Hero Background Colour"
+msgstr ""
+
+#: inc/redux-sections/blog.php:355 inc/redux-sections/blog.php:405
+msgctxt "Blog Homepage Hero"
+msgid "Hero Background Image"
+msgstr ""
+
+#: inc/redux-sections/blog.php:372 inc/redux-sections/blog.php:423
+msgctxt "Blog Homepage Hero"
+msgid "Hero Background Image Overlay Colour"
+msgstr ""
+
+#: inc/redux-sections/blog.php:138
+msgctxt "Blog Homepage Hero"
+msgid "Hero Layout"
+msgstr ""
+
+#: inc/redux-sections/blog.php:443
+msgctxt "Blog Homepage Hero"
+msgid "Hero Text Colour"
+msgstr ""
+
+#: inc/redux-sections/blog.php:125 inc/redux-sections/blog.php:132
+msgctxt "Blog Homepage Hero"
+msgid "Homepage Hero"
+msgstr ""
+
+#: inc/redux-sections/blog.php:168
+msgctxt "Blog Homepage Hero"
+msgid "Left"
+msgstr ""
+
+#: inc/redux-sections/blog.php:234
+msgctxt "Blog Homepage Hero"
+msgid "Post Excerpt"
+msgstr ""
+
+#: inc/redux-sections/blog.php:263
+msgctxt "Blog Homepage Hero"
+msgid "Read More"
+msgstr ""
+
+#: inc/redux-sections/blog.php:176
+msgctxt "Blog Homepage Hero"
+msgid "Right"
+msgstr ""
+
+#: inc/redux-sections/blog.php:227
+msgctxt "Blog Homepage Hero"
+msgid "Select Posts Category"
+msgstr ""
+
+#: inc/redux-sections/blog.php:220
+msgctxt "Blog Homepage Hero"
+msgid "Select Posts Tag"
+msgstr ""
+
+#: inc/redux-sections/blog.php:210
+msgctxt "Blog Homepage Hero"
+msgid "Show most recent post"
+msgstr ""
+
+#: inc/redux-sections/blog.php:211
+msgctxt "Blog Homepage Hero"
+msgid "Show most recent post with specific category"
+msgstr ""
+
+#: inc/redux-sections/blog.php:212
+msgctxt "Blog Homepage Hero"
+msgid "Show most recent post with specific tag"
+msgstr ""
+
+#: inc/redux-sections/blog.php:213
+msgctxt "Blog Homepage Hero"
+msgid "Show most recent sticky post"
+msgstr ""
+
+#: inc/redux-sections/blog.php:248
+msgctxt "Blog Homepage Hero"
+msgid "Solid Colour"
+msgstr ""
+
+#: inc/redux-sections/blog.php:140 inc/redux-sections/blog.php:196
+msgctxt "Blog Homepage Hero"
+msgid "Standard / Header Title"
+msgstr ""
+
+#: inc/redux-sections/blog.php:156
+msgctxt "Blog Homepage Hero"
+msgid "Subtitle"
+msgstr ""
+
+#: inc/redux-sections/blog.php:149
+msgctxt "Blog Homepage Hero"
+msgid "Title"
+msgstr ""
+
+#: inc/redux-sections/blog.php:461
+msgctxt "Blog Homepage Hero"
+msgid "Title Typography"
+msgstr ""
+
+#: inc/redux-sections/blog.php:141 inc/redux-sections/blog.php:200
+msgctxt "Blog Homepage Hero"
+msgid "Video"
+msgstr ""
+
+#: inc/redux-sections/blog.php:191
+msgctxt "Blog Homepage Hero"
+msgid "Video Align"
+msgstr ""
+
+#: inc/redux-sections/blog.php:184
+msgctxt "Blog Homepage Hero"
+msgid "Video Embed Code"
+msgstr ""
+
+#: inc/redux-sections/blog.php:103
+msgctxt "Blog Homepage Layout"
+msgid "Category"
+msgstr ""
+
+#: inc/redux-sections/blog.php:99
+msgctxt "Blog Homepage Layout"
+msgid "Choose Homepage Content"
+msgstr ""
+
+#: inc/redux-sections/blog.php:79
+msgctxt "Blog Homepage Layout"
+msgid "Choose position of a sidebar"
+msgstr ""
+
+#: inc/redux-sections/blog.php:70
+msgctxt "Blog Homepage Layout"
+msgid "Grid Post Layout"
+msgstr ""
+
+#: inc/redux-sections/blog.php:55 inc/redux-sections/blog.php:62
+msgctxt "Blog Homepage Layout"
+msgid "Homepage Layout"
+msgstr ""
+
+#: inc/redux-sections/blog.php:78
+msgctxt "Blog Homepage Layout"
+msgid "Homepage Sidebar"
+msgstr ""
+
+#: inc/redux-sections/blog.php:102
+msgctxt "Blog Homepage Layout"
+msgid "Latest Posts"
+msgstr ""
+
+#: inc/redux-sections/blog.php:66
+msgctxt "Blog Homepage Layout"
+msgid "List Post Layout"
+msgstr ""
+
+#: inc/redux-sections/blog.php:83
+msgctxt "Blog Homepage Layout"
+msgid "No Sidebar"
+msgstr ""
+
+#: inc/redux-sections/blog.php:109
+msgctxt "Blog Homepage Layout"
+msgid "Select Posts Category"
+msgstr ""
+
+#: inc/redux-sections/blog.php:116
+msgctxt "Blog Homepage Layout"
+msgid "Select Posts Tag"
+msgstr ""
+
+#: inc/redux-sections/blog.php:87
+msgctxt "Blog Homepage Layout"
+msgid "Sidebar Left"
+msgstr ""
+
+#: inc/redux-sections/blog.php:91
+msgctxt "Blog Homepage Layout"
+msgid "Sidebar Right"
+msgstr ""
+
+#: inc/redux-sections/blog.php:104
+msgctxt "Blog Homepage Layout"
+msgid "Tag"
+msgstr ""
+
+#: inc/redux-sections/blog.php:576
+msgctxt "Blog Post Hero"
+msgid "Blog Post Hero"
+msgstr ""
+
+#: inc/redux-sections/blog.php:582
+msgctxt "Blog Post Hero"
+msgid "Hero Background Colour"
+msgstr ""
+
+#: inc/redux-sections/blog.php:613
+msgctxt "Blog Post Hero"
+msgid "Hero Background Image"
+msgstr ""
+
+#: inc/redux-sections/blog.php:626
+msgctxt "Blog Post Hero"
+msgid "Hero Background Image Positioning"
+msgstr ""
+
+#: inc/redux-sections/blog.php:641
+msgctxt "Blog Post Hero"
+msgid "Hero Image Overlay Colour"
+msgstr ""
+
+#: inc/redux-sections/blog.php:673
+msgctxt "Blog Post Hero"
+msgid "Hero Size"
+msgstr ""
+
+#: inc/redux-sections/blog.php:657
+msgctxt "Blog Post Hero"
+msgid "Hero Text Colour"
+msgstr ""
+
+#: inc/redux-sections/blog.php:675
+msgctxt "Blog Post Hero"
+msgid "Large"
+msgstr ""
+
+#: inc/redux-sections/blog.php:604
+msgctxt "Blog Post Hero"
+msgid "Show Featured Image in Post Content"
+msgstr ""
+
+#: inc/redux-sections/blog.php:674
+msgctxt "Blog Post Hero"
+msgid "Small"
+msgstr ""
+
+#: inc/redux-sections/blog.php:596
+msgctxt "Blog Post Hero"
+msgid ""
+"Use featured image as a hero image unless set differently on a blog post "
+"itself."
+msgstr ""
+
+#: inc/redux-sections/blog.php:595
+msgctxt "Blog Post Hero"
+msgid "Use Featured Image as Hero Image"
+msgstr ""
+
+#: inc/redux-sections/blog.php:559
+msgctxt "Blog Post Layout"
+msgid "Author Info Box"
+msgstr ""
+
+#: inc/redux-sections/blog.php:523 inc/redux-sections/blog.php:530
+msgctxt "Blog Post Layout"
+msgid "Blog Post Layout"
+msgstr ""
+
+#: inc/redux-sections/blog.php:531
+msgctxt "Blog Post Layout"
+msgid "Choose position of a sidebar"
+msgstr ""
+
+#: inc/redux-sections/blog.php:551
+msgctxt "Blog Post Layout"
+msgid "Enable Previous/Next Post Pagination"
+msgstr ""
+
+#: inc/redux-sections/blog.php:535
+msgctxt "Blog Post Layout"
+msgid "No Sidebar"
+msgstr ""
+
+#: inc/redux-sections/blog.php:567
+msgctxt "Blog Post Layout"
+msgid "Related Posts"
+msgstr ""
+
+#: inc/redux-sections/blog.php:539
+msgctxt "Blog Post Layout"
+msgid "Sidebar Left"
+msgstr ""
+
+#: inc/redux-sections/blog.php:543
+msgctxt "Blog Post Layout"
+msgid "Sidebar Right"
+msgstr ""
+
+#: inc/helpers.php:268
+msgctxt "Comment form"
+msgid "Cancel Reply"
+msgstr ""
+
+#: inc/helpers.php:266
+msgctxt "Comment form"
+msgid "Leave a Reply"
+msgstr ""
+
+#: inc/helpers.php:267
+#, php-format
+msgctxt "Comment form"
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: inc/helpers.php:274
+#, php-format
+msgctxt "Comment form"
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+
+#: inc/helpers.php:269
+msgctxt "Comment form"
+msgid "Post Comment"
+msgstr ""
+
+#: inc/helpers.php:273
+#, php-format
+msgctxt "Comment form"
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: inc/helpers.php:275
+msgctxt "Comment form"
+msgid "Your email address will not be published."
+msgstr ""
+
+#: inc/helpers.php:252
+msgctxt "Comment form placeholder"
+msgid "Email"
+msgstr ""
+
+#: inc/helpers.php:248
+msgctxt "Comment form placeholder"
+msgid "Name"
+msgstr ""
+
+#: inc/helpers.php:256
+msgctxt "Comment form placeholder"
+msgid "URL"
+msgstr ""
+
+#: inc/smart_walker_comment.php:14
+#, php-format
+msgctxt "Content"
+msgid "%1$s Response to"
+msgid_plural "%1$s replies to "
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/auto-updates.php:52
+#, php-format
+msgctxt "Content"
+msgid ""
+"<strong>%1$s %2$s</strong> is available. <a href=\"%3$s\" class=\"thickbox\" "
+"title=\"%4s\">Check out what's new</a> or <a href=\"%5$s\"%6$s>update now</a>"
+"."
+msgstr ""
+
+#: template-parts/homepage/homepage-hero-featured-post.php:221
+msgctxt "Content"
+msgid "by"
+msgstr ""
+
+#: archive.php:41
+msgctxt "Content"
+msgid "Category"
+msgstr ""
+
+#: comments.php:47
+msgctxt "Content"
+msgid "Comments are closed."
+msgstr ""
+
+#: template-parts/loop/content-grid.php:52
+msgctxt "Content"
+msgid "Continue Reading"
+msgstr ""
+
+#: template-parts/content/content-none.php:20
+msgctxt "Content"
+msgid ""
+"It seems that we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content/content-none.php:18
+msgctxt "Content"
+msgid ""
+"It seems that we can&rsquo;t find what you&rsquo;re looking for. Try "
+"adjusting your search."
+msgstr ""
+
+#: inc/hooks.php:566
+msgctxt "Content"
+msgid "Newer Articles »"
+msgstr ""
+
+#: inc/template-tags.php:303
+msgctxt "Content"
+msgid "Next Post »"
+msgstr ""
+
+#: template-parts/content/content-none.php:13
+msgctxt "Content"
+msgid "Nothing Found"
+msgstr ""
+
+#: 404.php:30
+msgctxt "Content"
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: template-parts/content/content-single.php:36
+#: template-parts/content/content-page.php:38
+#: template-parts/content/content.php:34
+msgctxt "Content"
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content/content-none.php:15
+#, php-format
+msgctxt "Content"
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: inc/template-tags.php:375
+msgctxt "Content"
+msgid "Related Articles"
+msgstr ""
+
+#: header.php:14 header-shop.php:16
+msgctxt "Content"
+msgid "Skip to content"
+msgstr ""
+
+#: inc/widgets.php:148
+msgctxt "Content"
+msgid "Style:"
+msgstr ""
+
+#: archive.php:44
+msgctxt "Content"
+msgid "Tag"
+msgstr ""
+
+#: inc/widgets.php:144
+msgctxt "Content"
+msgid "Title:"
+msgstr ""
+
+#: template-parts/header/header-basic.php:17
+#: template-parts/header/header-with-tagline.php:37
+#: template-parts/header/header-full.php:17
+#: template-parts/header/header-centered.php:18
+msgctxt "Content"
+msgid "Toggle navigation"
+msgstr ""
+
+#: inc/hooks.php:565
+msgctxt "Content"
+msgid "« Older Articles"
+msgstr ""
+
+#: inc/template-tags.php:299
+msgctxt "Content"
+msgid "« Previous Post"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Conversion optimized, fast WordPress theme with beautiful designs, built by "
+"marketers for marketers."
+msgstr ""
+
+#: inc/redux-sections/custom-scripts.php:21
+msgctxt "Custom Scripts"
+msgid "After &lt;body&gt; Tag"
+msgstr ""
+
+#: inc/redux-sections/custom-scripts.php:10
+msgctxt "Custom Scripts"
+msgid "Custom Script"
+msgstr ""
+
+#: inc/redux-sections/custom-scripts.php:3
+msgctxt "Custom Scripts"
+msgid "Custom Scripts"
+msgstr ""
+
+#: inc/redux-sections/custom-scripts.php:22
+msgctxt "Custom Scripts"
+msgid "Footer"
+msgstr ""
+
+#: inc/redux-sections/custom-scripts.php:20
+msgctxt "Custom Scripts"
+msgid "Header"
+msgstr ""
+
+#: inc/redux-sections/custom-scripts.php:18
+msgctxt "Custom Scripts"
+msgid "Location"
+msgstr ""
+
+#: inc/redux-sections/custom-scripts.php:29
+msgctxt "Custom Scripts"
+msgid "Script"
+msgstr ""
+
+#: inc/redux-sections/footer.php:12
+msgctxt "Footer"
+msgid ""
+"Choose 1-4 columns for your blog footer. Add content to your footer by "
+"adding widgets to the \"Footer Sidebar Section\" panels on the Widgets page. "
+"Only insert the same number of widgets as you have set columns to maintain "
+"the layout."
+msgstr ""
+
+#: inc/redux-sections/footer.php:70
+msgctxt "Footer"
+msgid "Copyright Text"
+msgstr ""
+
+#: inc/redux-sections/footer.php:79
+msgctxt "Footer"
+msgid "Footer Background Colour"
+msgstr ""
+
+#: inc/redux-sections/footer.php:10
+msgctxt "Footer"
+msgid "Footer Columns"
+msgstr ""
+
+#: inc/redux-sections/footer.php:87
+msgctxt "Footer"
+msgid "Footer Headlines Colour"
+msgstr ""
+
+#: inc/redux-sections/footer.php:103
+msgctxt "Footer"
+msgid "Footer Link Colour"
+msgstr ""
+
+#: inc/redux-sections/footer.php:95
+msgctxt "Footer"
+msgid "Footer Text Colour"
+msgstr ""
+
+#: inc/redux-sections/footer.php:44
+msgctxt "Footer"
+msgid "Four"
+msgstr ""
+
+#: inc/redux-sections/footer.php:52
+msgctxt "Footer"
+msgid "Logo"
+msgstr ""
+
+#: inc/redux-sections/footer.php:16
+msgctxt "Footer"
+msgid "One"
+msgstr ""
+
+#: inc/redux-sections/footer.php:61
+msgctxt "Footer"
+msgid "Retina Logo"
+msgstr ""
+
+#: inc/redux-sections/footer.php:11
+msgctxt "Footer"
+msgid "Select the number of columns in your footer"
+msgstr ""
+
+#: inc/redux-sections/footer.php:32
+msgctxt "Footer"
+msgid "Three"
+msgstr ""
+
+#: inc/redux-sections/footer.php:36
+msgctxt "Footer"
+msgid "Three (left wide)"
+msgstr ""
+
+#: inc/redux-sections/footer.php:40
+msgctxt "Footer"
+msgid "Three (right wide)"
+msgstr ""
+
+#: inc/redux-sections/footer.php:20
+msgctxt "Footer"
+msgid "Two"
+msgstr ""
+
+#: inc/redux-sections/footer.php:24
+msgctxt "Footer"
+msgid "Two (left wide)"
+msgstr ""
+
+#: inc/redux-sections/footer.php:28
+msgctxt "Footer"
+msgid "Two (right wide)"
+msgstr ""
+
+#: inc/redux-sections/header.php:64
+msgctxt "Header"
+msgid "Basic"
+msgstr ""
+
+#: inc/redux-sections/header.php:72
+msgctxt "Header"
+msgid "Centered"
+msgstr ""
+
+#: inc/redux-sections/header.php:83
+msgctxt "Header"
+msgid "Dropdown Menu Line Color"
+msgstr ""
+
+#: inc/redux-sections/header.php:76
+msgctxt "Header"
+msgid "Full Width"
+msgstr ""
+
+#: inc/redux-sections/header.php:98
+msgctxt "Header"
+msgid "Header Background Colour"
+msgstr ""
+
+#: inc/redux-sections/header.php:106
+msgctxt "Header"
+msgid "Header Bottom Border Colour"
+msgstr ""
+
+#: inc/redux-sections/header.php:60
+msgctxt "Header"
+msgid "Header Style"
+msgstr ""
+
+#: inc/redux-sections/header.php:10
+msgctxt "Header"
+msgid "Logo"
+msgstr ""
+
+#: inc/redux-sections/header.php:11
+msgctxt "Header"
+msgid "Logo should not be more than 220px wide"
+msgstr ""
+
+#: inc/redux-sections/header.php:68
+msgctxt "Header"
+msgid "Navbar below header & tagline"
+msgstr ""
+
+#: inc/redux-sections/header.php:20
+msgctxt "Header"
+msgid "Retina Logo"
+msgstr ""
+
+#: inc/redux-sections/header.php:21
+msgctxt "Header"
+msgid "Retina Logo should not be more than 440px wide"
+msgstr ""
+
+#: inc/redux-sections/header.php:31
+msgctxt "Header"
+msgid "Select or upload image with 512x512 px to be used as a site icon"
+msgstr ""
+
+#: inc/redux-sections/header.php:52
+msgctxt "Header"
+msgid "Show Search Box in header"
+msgstr ""
+
+#: inc/redux-sections/header.php:30
+msgctxt "Header"
+msgid "Site Icon"
+msgstr ""
+
+#: inc/redux-sections/header.php:93
+msgctxt "Header"
+msgid "Site Tagline"
+msgstr ""
+
+#: inc/redux-sections/header.php:44
+msgctxt "Header"
+msgid "Sticky Header"
+msgstr ""
+
+#. URI of the theme
+msgid "http://optimizetheme.com"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://www.optimizepress.com/"
+msgstr ""
+
+#: functions.php:69
+msgctxt "Menus"
+msgid "Header Menu"
+msgstr ""
+
+#: options.php:532
+msgctxt "Metabox"
+msgid "Custom Theme Options"
+msgstr ""
+
+#: options.php:584
+msgctxt "Metabox Audio"
+msgid "Audio"
+msgstr ""
+
+#: options.php:562
+msgctxt "Metabox Audio"
+msgid "Audio File"
+msgstr ""
+
+#: options.php:548
+msgctxt "Metabox Audio"
+msgid "Embed"
+msgstr ""
+
+#: options.php:556
+msgctxt "Metabox Audio"
+msgid "Embed code"
+msgstr ""
+
+#: options.php:572
+msgctxt "Metabox Audio"
+msgid "HTML5 Fallback Audio File (.ogg)"
+msgstr ""
+
+#: options.php:549
+msgctxt "Metabox Audio"
+msgid "Self Hosted"
+msgstr ""
+
+#: options.php:546
+msgctxt "Metabox Audio"
+msgid "Type"
+msgstr ""
+
+#: options.php:405
+msgctxt "Metabox Featured Image"
+msgid ""
+"Default will use settings set in Theme Options, and custom will set options "
+"only for this post."
+msgstr ""
+
+#: options.php:398
+msgctxt "Metabox Featured Image"
+msgid "Featured Image"
+msgstr ""
+
+#: options.php:404
+msgctxt "Metabox Featured Image"
+msgid "Featured Image Behaviour"
+msgstr ""
+
+#: options.php:435
+msgctxt "Metabox Featured Image"
+msgid "Hero Background Colour"
+msgstr ""
+
+#: options.php:443
+msgctxt "Metabox Featured Image"
+msgid "Hero Background Image"
+msgstr ""
+
+#: options.php:477
+msgctxt "Metabox Featured Image"
+msgid "Hero Background Image Overlay Colour"
+msgstr ""
+
+#: options.php:459
+msgctxt "Metabox Featured Image"
+msgid "Hero Background Image Positioning"
+msgstr ""
+
+#: options.php:493
+msgctxt "Metabox Featured Image"
+msgid "Hero Size"
+msgstr ""
+
+#: options.php:495
+msgctxt "Metabox Featured Image"
+msgid "Large"
+msgstr ""
+
+#: options.php:423
+msgctxt "Metabox Featured Image"
+msgid "Show Featured Image in Post Content"
+msgstr ""
+
+#: options.php:494
+msgctxt "Metabox Featured Image"
+msgid "Small"
+msgstr ""
+
+#: options.php:414 options.php:424
+msgctxt "Metabox Featured Image"
+msgid ""
+"This setting will override general settings set in Theme Options for this "
+"post."
+msgstr ""
+
+#: options.php:413
+msgctxt "Metabox Featured Image"
+msgid "Use Featured Image as Hero Image"
+msgstr ""
+
+#: options.php:670
+msgctxt "Metabox Gallery"
+msgid "Gallery"
+msgstr ""
+
+#: options.php:328
+msgctxt "Metabox Header"
+msgid "Header"
+msgstr ""
+
+#: options.php:348
+msgctxt "Metabox Header"
+msgid "Header Category Background Colour"
+msgstr ""
+
+#: options.php:341
+msgctxt "Metabox Header"
+msgid "Header Category Text Colour"
+msgstr ""
+
+#: options.php:335
+msgctxt "Metabox Header"
+msgid "Header Text Colour"
+msgstr ""
+
+#: options.php:514
+msgctxt "Metabox Optin Forms"
+msgid "After Header"
+msgstr ""
+
+#: options.php:519
+msgctxt "Metabox Optin Forms"
+msgid "After Hero"
+msgstr ""
+
+#: options.php:523
+msgctxt "Metabox Optin Forms"
+msgid "Before Footer"
+msgstr ""
+
+#: options.php:508
+msgctxt "Metabox Optin Forms"
+msgid "Optin Forms"
+msgstr ""
+
+#: options.php:374
+msgctxt "Metabox Sidebar"
+msgid "Choose position of a sidebar"
+msgstr ""
+
+#: options.php:365
+msgctxt "Metabox Sidebar"
+msgid ""
+"Default will use settings set in Theme Options, and custom will set options "
+"only for this post."
+msgstr ""
+
+#: options.php:378
+msgctxt "Metabox Sidebar"
+msgid "No Sidebar"
+msgstr ""
+
+#: options.php:358 options.php:373
+msgctxt "Metabox Sidebar"
+msgid "Sidebar"
+msgstr ""
+
+#: options.php:364
+msgctxt "Metabox Sidebar"
+msgid "Sidebar Behaviour"
+msgstr ""
+
+#: options.php:382
+msgctxt "Metabox Sidebar"
+msgid "Sidebar Left"
+msgstr ""
+
+#: options.php:386
+msgctxt "Metabox Sidebar"
+msgid "Sidebar Right"
+msgstr ""
+
+#: options.php:601
+msgctxt "Metabox Video"
+msgid "Embed"
+msgstr ""
+
+#: options.php:609
+msgctxt "Metabox Video"
+msgid "Embed code"
+msgstr ""
+
+#: options.php:625
+msgctxt "Metabox Video"
+msgid "HTML5 Fallback Video File (.ogg)"
+msgstr ""
+
+#: options.php:635
+msgctxt "Metabox Video"
+msgid "HTML5 Fallback Video File (.webm)"
+msgstr ""
+
+#: options.php:602
+msgctxt "Metabox Video"
+msgid "Self Hosted"
+msgstr ""
+
+#: options.php:599
+msgctxt "Metabox Video"
+msgid "Type"
+msgstr ""
+
+#: options.php:647
+msgctxt "Metabox Video"
+msgid "Video"
+msgstr ""
+
+#: options.php:615
+msgctxt "Metabox Video"
+msgid "Video File"
+msgstr ""
+
+#: options.php:702
+msgctxt "Metabox WooCommerce"
+msgid "Custom Short Description"
+msgstr ""
+
+#: options.php:692
+msgctxt "Metabox WooCommerce"
+msgid "HTML is not supported in this field."
+msgstr ""
+
+#: options.php:691
+msgctxt "Metabox WooCommerce"
+msgid "Short product description that will be shown on the shop page"
+msgstr ""
+
+#: inc/redux-sections/miscellaneous.php:62
+msgctxt "Miscellaneous Promotion Settings"
+msgid "<em>Theme by OptimizePress</em> message in site footer"
+msgstr ""
+
+#: inc/redux-sections/miscellaneous.php:68
+msgctxt "Miscellaneous Promotion Settings"
+msgid "Affiliate URL"
+msgstr ""
+
+#: inc/redux-sections/miscellaneous.php:69
+msgctxt "Miscellaneous Promotion Settings"
+msgid ""
+"Enter your OptimizePress affiliate URL here. This will link to the "
+"\"WordPress Theme by OptimizePress\" message in the footer. <br /><br />To "
+"promote OptimizePress join at <a href=\"https://www.optimizepress."
+"com/affiliates\" target=\"_blank\" rel=\"noopener\">https://www."
+"optimizepress.com/affiliates</a>."
+msgstr ""
+
+#: inc/redux-sections/miscellaneous.php:26
+msgctxt "Miscellaneous Search Results"
+msgid "Choose position of a sidebar"
+msgstr ""
+
+#: inc/redux-sections/miscellaneous.php:48
+msgctxt "Miscellaneous Search Results"
+msgid "Large"
+msgstr ""
+
+#: inc/redux-sections/miscellaneous.php:30
+msgctxt "Miscellaneous Search Results"
+msgid "No Sidebar"
+msgstr ""
+
+#: inc/redux-sections/miscellaneous.php:10
+msgctxt "Miscellaneous Search Results"
+msgid "Search Results"
+msgstr ""
+
+#: inc/redux-sections/miscellaneous.php:46
+msgctxt "Miscellaneous Search Results"
+msgid "Search Results Hero Size"
+msgstr ""
+
+#: inc/redux-sections/miscellaneous.php:25
+msgctxt "Miscellaneous Search Results"
+msgid "Search Results Layout"
+msgstr ""
+
+#: inc/redux-sections/miscellaneous.php:17
+msgctxt "Miscellaneous Search Results"
+msgid "Show Pages in Search Results"
+msgstr ""
+
+#: inc/redux-sections/miscellaneous.php:34
+msgctxt "Miscellaneous Search Results"
+msgid "Sidebar Left"
+msgstr ""
+
+#: inc/redux-sections/miscellaneous.php:38
+msgctxt "Miscellaneous Search Results"
+msgid "Sidebar Right"
+msgstr ""
+
+#: inc/redux-sections/miscellaneous.php:47
+msgctxt "Miscellaneous Search Results"
+msgid "Small"
+msgstr ""
+
+#. Author of the theme
+msgid "OptimizePress"
+msgstr ""
+
+#: inc/redux-sections/optin-forms.php:218
+msgctxt "Optin Forms"
+msgid "404"
+msgstr ""
+
+#: options.php:1164
+msgctxt "Optin Forms"
+msgid ""
+"<div id=\"info-integrations_warning\" class=\"redux-warning redux-notice-"
+"field redux-field-info\"><p class=\"redux-info-desc\"><b>Important Notice</b>"
+"<br>Your selected integration does not currently have GDPR options available."
+" Please see <a href=\"http://www.optimizelink.com/gdpr-unsupported\" "
+"target=\"_blank\">this article</a> for more information.</p></div>"
+msgstr ""
+
+#: options.php:930
+msgctxt "Optin Forms"
+msgid "Action Page"
+msgstr ""
+
+#: inc/redux-sections/optin-forms.php:112
+#: inc/redux-sections/optin-forms.php:135
+#: inc/redux-sections/optin-forms.php:157
+#: inc/redux-sections/optin-forms.php:180
+#: inc/redux-sections/optin-forms.php:202
+#: inc/redux-sections/optin-forms.php:224
+msgctxt "Optin Forms"
+msgid "After Header"
+msgstr ""
+
+#: inc/redux-sections/optin-forms.php:117
+#: inc/redux-sections/optin-forms.php:140
+#: inc/redux-sections/optin-forms.php:162
+#: inc/redux-sections/optin-forms.php:185
+#: inc/redux-sections/optin-forms.php:207
+#: inc/redux-sections/optin-forms.php:229
+msgctxt "Optin Forms"
+msgid "After Hero"
+msgstr ""
+
+#: inc/redux-sections/optin-forms.php:174
+msgctxt "Optin Forms"
+msgid "An Archive is a Category, Tag or Author based pages."
+msgstr ""
+
+#: inc/redux-sections/optin-forms.php:173
+msgctxt "Optin Forms"
+msgid "Archive"
+msgstr ""
+
+#: options.php:837
+msgctxt "Optin Forms"
+msgid "Autoresponder Name"
+msgstr ""
+
+#: inc/redux-sections/optin-forms.php:122
+#: inc/redux-sections/optin-forms.php:144
+#: inc/redux-sections/optin-forms.php:166
+#: inc/redux-sections/optin-forms.php:189
+#: inc/redux-sections/optin-forms.php:211
+#: inc/redux-sections/optin-forms.php:233
+msgctxt "Optin Forms"
+msgid "Before Footer"
+msgstr ""
+
+#: options.php:1197 options.php:1208
+msgctxt "Optin Forms"
+msgid "Consent 1 Accept Custom Field/Tag"
+msgstr ""
+
+#: options.php:1224 options.php:1235
+msgctxt "Optin Forms"
+msgid "Consent 1 Decline Custom Field/Tag"
+msgstr ""
+
+#: options.php:1188
+msgctxt "Optin Forms"
+msgid "Consent 1 Label/Message"
+msgstr ""
+
+#: options.php:1251 options.php:1262
+msgctxt "Optin Forms"
+msgid "Consent 1 Not Shown/Non-EU Custom Field/Tag"
+msgstr ""
+
+#: options.php:1301 options.php:1312
+msgctxt "Optin Forms"
+msgid "Consent 2 Accept Custom Field/Tag"
+msgstr ""
+
+#: options.php:1328 options.php:1339
+msgctxt "Optin Forms"
+msgid "Consent 2 Decline Custom Field/Tag"
+msgstr ""
+
+#: options.php:1292
+msgctxt "Optin Forms"
+msgid "Consent 2 Label/Message"
+msgstr ""
+
+#: options.php:1355 options.php:1366
+msgctxt "Optin Forms"
+msgid "Consent 2 Not Shown/Non-EU Custom Field/Tag"
+msgstr ""
+
+#: options.php:1383
+msgctxt "Optin Forms"
+msgid "Consent Notes Custom Field"
+msgstr ""
+
+#: options.php:1480
+msgctxt "Optin Forms"
+msgid ""
+"Default will use settings set in Theme Options, and custom will set options "
+"only for this post."
+msgstr ""
+
+#: options.php:997
+msgctxt "Optin Forms"
+msgid "Disable Name"
+msgstr ""
+
+#: options.php:1136
+msgctxt "Optin Forms"
+msgid "Do not show GDPR Fields"
+msgstr ""
+
+#: options.php:848
+msgctxt "Optin Forms"
+msgid "Double Optin"
+msgstr ""
+
+#: options.php:1054
+msgctxt "Optin Forms"
+msgid "Email"
+msgstr ""
+
+#: options.php:954
+msgctxt "Optin Forms"
+msgid "Email Address"
+msgstr ""
+
+#: options.php:762
+msgctxt "Optin Forms"
+msgid "Email data"
+msgstr ""
+
+#: options.php:1068
+msgctxt "Optin Forms"
+msgid "Email Field Label"
+msgstr ""
+
+#: options.php:1079
+msgctxt "Optin Forms"
+msgid "Email Order"
+msgstr ""
+
+#: options.php:1493
+#, php-format
+msgctxt "Optin Forms"
+msgid "Enable %s Optin"
+msgstr ""
+
+#: options.php:1175
+msgctxt "Optin Forms"
+msgid "Enable Consent 1 Checkbox"
+msgstr ""
+
+#: options.php:1279
+msgctxt "Optin Forms"
+msgid "Enable Consent 2 Checkbox"
+msgstr ""
+
+#: options.php:1134
+msgctxt "Optin Forms"
+msgid "Enable GDPR Checkboxes"
+msgstr ""
+
+#: options.php:1189 options.php:1293
+msgctxt "Optin Forms"
+msgid "Enter privacy notice (including any HTML links)"
+msgstr ""
+
+#: options.php:879
+msgctxt "Optin Forms"
+msgid ""
+"Enter the form ID if you wish to use the Opt-in confirmation email settings "
+"you have created inside the settings for this form."
+msgstr ""
+
+#: options.php:1069
+msgctxt "Optin Forms"
+msgid "Enter your email"
+msgstr ""
+
+#: options.php:794
+msgctxt "Optin Forms"
+msgid "Enter your list ID."
+msgstr ""
+
+#: options.php:1022
+msgctxt "Optin Forms"
+msgid "Enter your name"
+msgstr ""
+
+#: inc/redux-sections/optin-forms.php:247
+msgctxt "Optin Forms"
+msgid "Form #1"
+msgstr ""
+
+#: inc/redux-sections/optin-forms.php:252
+msgctxt "Optin Forms"
+msgid "Form #2"
+msgstr ""
+
+#: inc/redux-sections/optin-forms.php:257
+msgctxt "Optin Forms"
+msgid "Form #3"
+msgstr ""
+
+#: options.php:1554
+msgctxt "Optin Forms"
+msgid "Form Headline"
+msgstr ""
+
+#: options.php:1651
+msgctxt "Optin Forms"
+msgid "Form Privacy Text"
+msgstr ""
+
+#: options.php:1569
+msgctxt "Optin Forms"
+msgid "Form SubHeadline"
+msgstr ""
+
+#: options.php:1623
+msgctxt "Optin Forms"
+msgid "Form Submit Button Background Colour"
+msgstr ""
+
+#: options.php:1635
+msgctxt "Optin Forms"
+msgid "Form Submit Button Hover Background Colour"
+msgstr ""
+
+#: options.php:1601
+msgctxt "Optin Forms"
+msgid "Form Submit Button Text"
+msgstr ""
+
+#: options.php:1611
+msgctxt "Optin Forms"
+msgid "Form Submit Button Text Colour"
+msgstr ""
+
+#: options.php:1099
+msgctxt "Optin Forms"
+msgid "Form URL"
+msgstr ""
+
+#: options.php:991
+msgctxt "Optin Forms"
+msgid "Hidden fields markup"
+msgstr ""
+
+#: inc/redux-sections/optin-forms.php:106
+msgctxt "Optin Forms"
+msgid "Homepage"
+msgstr ""
+
+#: options.php:898
+msgctxt "Optin Forms"
+msgid ""
+"If this is set, success message above is ignored and user will be redirected "
+"to this URL."
+msgstr ""
+
+#: options.php:1584
+msgctxt "Optin Forms"
+msgid "Image"
+msgstr ""
+
+#: inc/redux-sections/optin-forms.php:75
+msgctxt "Optin Forms"
+msgid "Important Notice"
+msgstr ""
+
+#: options.php:1402
+msgctxt "Optin Forms"
+msgid "Integrate with OptimizeMember"
+msgstr ""
+
+#: options.php:1530
+msgctxt "Optin Forms"
+msgid "Integration"
+msgstr ""
+
+#: options.php:815
+msgctxt "Optin Forms"
+msgid "Integration Goal"
+msgstr ""
+
+#: options.php:750
+msgctxt "Optin Forms"
+msgid "Integration ID"
+msgstr ""
+
+#: options.php:774 options.php:793
+msgctxt "Optin Forms"
+msgid "Integration List"
+msgstr ""
+
+#: options.php:739
+msgctxt "Optin Forms"
+msgid "Integration Name"
+msgstr ""
+
+#: inc/redux-sections/optin-forms.php:57
+msgctxt "Optin Forms"
+msgid "Integration Settings"
+msgstr ""
+
+#: options.php:804
+msgctxt "Optin Forms"
+msgid "Integration Tag"
+msgstr ""
+
+#: options.php:760
+msgctxt "Optin Forms"
+msgid "Integration Type"
+msgstr ""
+
+#: options.php:1722
+msgctxt "Optin Forms"
+msgid "Lightbox Form Headline"
+msgstr ""
+
+#: options.php:1786
+msgctxt "Optin Forms"
+msgid "Lightbox Form Privacy Text"
+msgstr ""
+
+#: options.php:1732
+msgctxt "Optin Forms"
+msgid "Lightbox Form SubHeadline"
+msgstr ""
+
+#: options.php:1763
+msgctxt "Optin Forms"
+msgid "Lightbox Form Submit Button Background Colour"
+msgstr ""
+
+#: options.php:1774
+msgctxt "Optin Forms"
+msgid "Lightbox Form Submit Button Hover Background Colour"
+msgstr ""
+
+#: options.php:1742
+msgctxt "Optin Forms"
+msgid "Lightbox Form Submit Button Text"
+msgstr ""
+
+#: options.php:1752
+msgctxt "Optin Forms"
+msgid "Lightbox Form Submit Button Text Colour"
+msgstr ""
+
+#: options.php:1413
+msgctxt "Optin Forms"
+msgid "Membership Level"
+msgstr ""
+
+#: options.php:1088
+msgctxt "Optin Forms"
+msgid "Method"
+msgstr ""
+
+#: options.php:1008
+msgctxt "Optin Forms"
+msgid "Name"
+msgstr ""
+
+#: options.php:1021
+msgctxt "Optin Forms"
+msgid "Name Field Label"
+msgstr ""
+
+#: options.php:1031
+msgctxt "Optin Forms"
+msgid "Name Order"
+msgstr ""
+
+#: options.php:1041
+msgctxt "Optin Forms"
+msgid "Name Required"
+msgstr ""
+
+#: options.php:1177 options.php:1281
+msgctxt "Optin Forms"
+msgid "No"
+msgstr ""
+
+#: inc/redux-sections/optin-forms.php:20
+msgctxt "Optin Forms"
+msgid "Number of Integrations"
+msgstr ""
+
+#: options.php:1479
+msgctxt "Optin Forms"
+msgid "Optin Behaviour"
+msgstr ""
+
+#: inc/redux-sections/optin-forms.php:276
+msgctxt "Optin Forms"
+msgid ""
+"Optin forms work only when <a href=\"https://www.optimizepress.com/\" "
+"target=\"_blank\" rel=\"noopener\">OP Dashboard</a> plugin is installed and "
+"enabled."
+msgstr ""
+
+#: options.php:1544
+msgctxt "Optin Forms"
+msgid "Optin Style"
+msgstr ""
+
+#: options.php:1424
+msgctxt "Optin Forms"
+msgid "Packages"
+msgstr ""
+
+#: inc/redux-sections/optin-forms.php:151
+msgctxt "Optin Forms"
+msgid "Pages"
+msgstr ""
+
+#: options.php:1524
+msgctxt "Optin Forms"
+msgid ""
+"Please configure at least one Integration in \"Integration Settings\" "
+"submenu to use Optin Forms."
+msgstr ""
+
+#: inc/redux-sections/optin-forms.php:273
+msgctxt "Optin Forms"
+msgid "Please Enable OptimizePress"
+msgstr ""
+
+#: inc/redux-sections/optin-forms.php:77
+msgctxt "Optin Forms"
+msgid ""
+"Please note that the Optin Forms won't be shown on your page if integration "
+"is not properly configured."
+msgstr ""
+
+#: inc/redux-sections/optin-forms.php:129
+msgctxt "Optin Forms"
+msgid "Posts"
+msgstr ""
+
+#: inc/redux-sections/optin-forms.php:196
+msgctxt "Optin Forms"
+msgid "Search"
+msgstr ""
+
+#: options.php:775 options.php:805 options.php:816
+msgctxt "Optin Forms"
+msgid "Select Integration Type first"
+msgstr ""
+
+#: options.php:1210 options.php:1237 options.php:1264 options.php:1314
+#: options.php:1341 options.php:1368
+msgctxt "Optin Forms"
+msgid "Select integration type first"
+msgstr ""
+
+#: options.php:1385
+msgctxt "Optin Forms"
+msgid "Select integration type/list first"
+msgstr ""
+
+#: options.php:1009 options.php:1055
+msgctxt "Optin Forms"
+msgid "Select list first or paste in the from HTML"
+msgstr ""
+
+#: options.php:1531
+msgctxt "Optin Forms"
+msgid "Select the integration defined in Integration Settings submenu."
+msgstr ""
+
+#: options.php:1669
+msgctxt "Optin Forms"
+msgid "Show Form in Lightbox / Popup Optin"
+msgstr ""
+
+#: options.php:1138
+msgctxt "Optin Forms"
+msgid "Show to all Visitors"
+msgstr ""
+
+#: options.php:1137
+msgctxt "Optin Forms"
+msgid "Show to EU Only"
+msgstr ""
+
+#: options.php:878
+msgctxt "Optin Forms"
+msgid "Signup Form ID"
+msgstr ""
+
+#: options.php:890
+msgctxt "Optin Forms"
+msgid "Success Message"
+msgstr ""
+
+#: options.php:897
+msgctxt "Optin Forms"
+msgid "Thank You Page URL"
+msgstr ""
+
+#: options.php:892
+msgctxt "Optin Forms"
+msgid "Thanks. You will receive email from us soon!"
+msgstr ""
+
+#: inc/redux-sections/optin-forms.php:21
+msgctxt "Optin Forms"
+msgid ""
+"The number of different integration settings you can use for your optin "
+"forms."
+msgstr ""
+
+#: options.php:751
+msgctxt "Optin Forms"
+msgid "This field is for internal theme usage, and should not be changed."
+msgstr ""
+
+#: options.php:891
+msgctxt "Optin Forms"
+msgid "This message will be shown after successful optin. "
+msgstr ""
+
+#: options.php:1699
+msgctxt "Optin Forms"
+msgid "Trigger Button Background Colour"
+msgstr ""
+
+#: options.php:1710
+msgctxt "Optin Forms"
+msgid "Trigger Button Hover Background Colour"
+msgstr ""
+
+#: options.php:1678
+msgctxt "Optin Forms"
+msgid "Trigger Button Text"
+msgstr ""
+
+#: options.php:1688
+msgctxt "Optin Forms"
+msgid "Trigger Button Text Colour"
+msgstr ""
+
+#: options.php:826
+msgctxt "Optin Forms"
+msgid "Webhook URL"
+msgstr ""
+
+#: inc/redux-sections/optin-forms.php:240
+msgctxt "Optin Forms"
+msgid "Widget"
+msgstr ""
+
+#: options.php:1178 options.php:1282
+msgctxt "Optin Forms"
+msgid "Yes"
+msgstr ""
+
+#: inc/redux-sections/optin-forms.php:58
+msgctxt "Optin Forms"
+msgid "You can bind integrations created here on each position in optin forms."
+msgstr ""
+
+#: options.php:1152
+msgctxt "Optin Forms"
+msgid ""
+"You can configure the GDPR privacy checkboxes for your opt-in form below. "
+"Please watch our training on how to integrate your provider on our <a "
+"href=\"http://optimizelink.com/gdpr-smarttheme\" target=\"_blank\">training "
+"hub here</a>."
+msgstr ""
+
+#: inc/redux-sections/optin-forms.php:241
+#, php-format
+msgctxt "Optin Forms"
+msgid ""
+"You can use Optins configured here on the <a href=\"%s\">Widgets page</a>."
+msgstr ""
+
+#: inc/redux-sections/pages.php:20
+msgctxt "Pages"
+msgid "Author"
+msgstr ""
+
+#: inc/redux-sections/pages.php:19
+msgctxt "Pages"
+msgid "Date"
+msgstr ""
+
+#: inc/redux-sections/pages.php:9
+msgctxt "Pages"
+msgid "General"
+msgstr ""
+
+#: inc/redux-sections/pages.php:16
+msgctxt "Pages"
+msgid "Metadata Options"
+msgstr ""
+
+#: inc/redux-sections/pages.php:70
+msgctxt "Pages Page Hero"
+msgid "Hero Background Colour"
+msgstr ""
+
+#: inc/redux-sections/pages.php:101
+msgctxt "Pages Page Hero"
+msgid "Hero Background Image"
+msgstr ""
+
+#: inc/redux-sections/pages.php:116
+msgctxt "Pages Page Hero"
+msgid "Hero Background Image Positioning"
+msgstr ""
+
+#: inc/redux-sections/pages.php:133
+msgctxt "Pages Page Hero"
+msgid "Hero Image Overlay Colour"
+msgstr ""
+
+#: inc/redux-sections/pages.php:160
+msgctxt "Pages Page Hero"
+msgid "Hero Size"
+msgstr ""
+
+#: inc/redux-sections/pages.php:149
+msgctxt "Pages Page Hero"
+msgid "Hero Text Colour"
+msgstr ""
+
+#: inc/redux-sections/pages.php:162
+msgctxt "Pages Page Hero"
+msgid "Large"
+msgstr ""
+
+#: inc/redux-sections/pages.php:64
+msgctxt "Pages Page Hero"
+msgid "Page Hero"
+msgstr ""
+
+#: inc/redux-sections/pages.php:92
+msgctxt "Pages Page Hero"
+msgid "Show Featured Image in Page Content"
+msgstr ""
+
+#: inc/redux-sections/pages.php:161
+msgctxt "Pages Page Hero"
+msgid "Small"
+msgstr ""
+
+#: inc/redux-sections/pages.php:84
+msgctxt "Pages Page Hero"
+msgid ""
+"Use featured image as a hero image unless set differently on a page itself."
+msgstr ""
+
+#: inc/redux-sections/pages.php:83
+msgctxt "Pages Page Hero"
+msgid "Use Featured Image as Hero Image"
+msgstr ""
+
+#: inc/redux-sections/pages.php:43
+msgctxt "Pages Page Layout"
+msgid "Choose position of a sidebar"
+msgstr ""
+
+#: inc/redux-sections/pages.php:47
+msgctxt "Pages Page Layout"
+msgid "No Sidebar"
+msgstr ""
+
+#: inc/redux-sections/pages.php:35 inc/redux-sections/pages.php:42
+msgctxt "Pages Page Layout"
+msgid "Page Layout"
+msgstr ""
+
+#: inc/redux-sections/pages.php:51
+msgctxt "Pages Page Layout"
+msgid "Sidebar Left"
+msgstr ""
+
+#: inc/redux-sections/pages.php:55
+msgctxt "Pages Page Layout"
+msgid "Sidebar Right"
+msgstr ""
+
+#: inc/template-tags.php:455
+msgctxt "Search form placeholder"
+msgid "Enter your search keyword(s) here and press enter"
+msgstr ""
+
+#: searchform.php:3
+msgctxt "Search form placeholder"
+msgid "Search term"
+msgstr ""
+
+#: searchform.php:6
+msgctxt "Search submit button"
+msgid "Search"
+msgstr ""
+
+#: inc/share-buttons.php:51
+msgctxt "Share verb for Facebook"
+msgid "Share <span class=\"visuallyhidden\">on Facebook</span>"
+msgstr ""
+
+#: inc/share-buttons.php:102
+msgctxt "Share verb for Google+"
+msgid "Share <span class=\"visuallyhidden\">on Google+</span>"
+msgstr ""
+
+#: inc/share-buttons.php:86
+msgctxt "Share verb for Linkedin"
+msgid "Share <span class=\"visuallyhidden\">on Linkedin</span>"
+msgstr ""
+
+#: inc/share-buttons.php:120
+msgctxt "Share verb for Pinterest"
+msgid "Pin it <span class=\"visuallyhidden\">(Share on Pinterest)</span>"
+msgstr ""
+
+#: inc/share-buttons.php:68
+msgctxt "Share verb for Twitter"
+msgid "Tweet <span class=\"visuallyhidden\">(Share on Twitter)</span>"
+msgstr ""
+
+#. Name of the theme
+msgid "Smart Theme v3"
+msgstr ""
+
+#: inc/redux-sections/social.php:57
+msgctxt "Social"
+msgid "Active Social Networks"
+msgstr ""
+
+#: inc/redux-sections/social.php:45
+msgctxt "Social"
+msgid "After Content"
+msgstr ""
+
+#: inc/redux-sections/social.php:44
+msgctxt "Social"
+msgid "Before Content"
+msgstr ""
+
+#: inc/redux-sections/social.php:33
+msgctxt "Social"
+msgid "Don't stick to the side"
+msgstr ""
+
+#: inc/redux-sections/social.php:87
+msgctxt "Social"
+msgid "Facebook profile URL"
+msgstr ""
+
+#: inc/redux-sections/social.php:99
+msgctxt "Social"
+msgid "LinkedIn profile URL"
+msgstr ""
+
+#: inc/redux-sections/social.php:109
+msgctxt "Social"
+msgid "Pinterest profile URL"
+msgstr ""
+
+#: inc/redux-sections/social.php:81
+msgctxt "Social"
+msgid "Profiles Options"
+msgstr ""
+
+#: inc/redux-sections/social.php:17
+msgctxt "Social"
+msgid "Select post types where share buttons will be shown on"
+msgstr ""
+
+#: inc/redux-sections/social.php:41
+msgctxt "Social"
+msgid "Share Buttons Position"
+msgstr ""
+
+#: inc/redux-sections/social.php:10
+msgctxt "Social"
+msgid "Sharing Options"
+msgstr ""
+
+#: inc/redux-sections/social.php:30
+msgctxt "Social"
+msgid "Should the buttons stick left or right when out of the viewport"
+msgstr ""
+
+#: inc/redux-sections/social.php:16
+msgctxt "Social"
+msgid "Show On Content Types"
+msgstr ""
+
+#: inc/redux-sections/social.php:34
+msgctxt "Social"
+msgid "Stick to the left side"
+msgstr ""
+
+#: inc/redux-sections/social.php:35
+msgctxt "Social"
+msgid "Stick to the right side"
+msgstr ""
+
+#: inc/redux-sections/social.php:29
+msgctxt "Social"
+msgid "Sticky"
+msgstr ""
+
+#: inc/redux-sections/social.php:93
+msgctxt "Social"
+msgid "Twitter profile URL"
+msgstr ""
+
+#: inc/redux-sections/social.php:42
+msgctxt "Social"
+msgid "Where should the share buttons be shown on"
+msgstr ""
+
+#: inc/redux-sections/styling.php:152
+msgctxt "Styling Category Tag Colours"
+msgid "Category Tag Background Colour"
+msgstr ""
+
+#: inc/redux-sections/styling.php:122
+msgctxt "Styling Category Tag Colours"
+msgid "Category Tag Colours"
+msgstr ""
+
+#: inc/redux-sections/styling.php:128
+msgctxt "Styling Category Tag Colours"
+msgid "Category Tag Text Colour"
+msgstr ""
+
+#: inc/redux-sections/styling.php:26
+msgctxt "Styling Link Colours"
+msgid "Button Background Colour"
+msgstr ""
+
+#: inc/redux-sections/styling.php:73
+msgctxt "Styling Link Colours"
+msgid "Button Colour"
+msgstr ""
+
+#: inc/redux-sections/styling.php:43
+msgctxt "Styling Link Colours"
+msgid "Button Hover Background Colour"
+msgstr ""
+
+#: inc/redux-sections/styling.php:15
+msgctxt "Styling Link Colours"
+msgid "Link Colour"
+msgstr ""
+
+#: inc/redux-sections/styling.php:9
+msgctxt "Styling Link Colours"
+msgid "Link Colours"
+msgstr ""
+
+#: inc/redux-sections/styling.php:91
+msgctxt "Styling Link Colours"
+msgid "Menu Link Colour"
+msgstr ""
+
+#: inc/redux-sections/styling.php:185
+msgctxt "Styling Typography"
+msgid "Activate this setting for advanced typography styles and customizations"
+msgstr ""
+
+#: inc/redux-sections/styling.php:194
+msgctxt "Styling Typography"
+msgid ""
+"Activate this setting if you prefer your headings and titles (such as H1 "
+"tags, hero section titles and sidebar titles) to have uppercase styling"
+msgstr ""
+
+#: inc/redux-sections/styling.php:202
+msgctxt "Styling Typography"
+msgid "Body Font"
+msgstr ""
+
+#: inc/redux-sections/styling.php:208
+msgctxt "Styling Typography"
+msgid "Body Font Family"
+msgstr ""
+
+#: inc/redux-sections/styling.php:226
+msgctxt "Styling Typography"
+msgid "Body Font Size"
+msgstr ""
+
+#: inc/redux-sections/styling.php:275
+msgctxt "Styling Typography"
+msgid "H1 Font Size"
+msgstr ""
+
+#: inc/redux-sections/styling.php:294
+msgctxt "Styling Typography"
+msgid "H2 Font Size"
+msgstr ""
+
+#: inc/redux-sections/styling.php:312
+msgctxt "Styling Typography"
+msgid "H3 Font Size"
+msgstr ""
+
+#: inc/redux-sections/styling.php:330
+msgctxt "Styling Typography"
+msgid "H4 Font Size"
+msgstr ""
+
+#: inc/redux-sections/styling.php:348
+msgctxt "Styling Typography"
+msgid "H5 Font Size"
+msgstr ""
+
+#: inc/redux-sections/styling.php:366
+msgctxt "Styling Typography"
+msgid "H6 Font Size"
+msgstr ""
+
+#: inc/redux-sections/styling.php:515
+msgctxt "Styling Typography"
+msgid "Heading 1 (H1)"
+msgstr ""
+
+#: inc/redux-sections/styling.php:532
+msgctxt "Styling Typography"
+msgid "Heading 2 (H2)"
+msgstr ""
+
+#: inc/redux-sections/styling.php:549
+msgctxt "Styling Typography"
+msgid "Heading 3 (H3)"
+msgstr ""
+
+#: inc/redux-sections/styling.php:566
+msgctxt "Styling Typography"
+msgid "Heading 4 (H4)"
+msgstr ""
+
+#: inc/redux-sections/styling.php:583
+msgctxt "Styling Typography"
+msgid "Heading 5 (H5)"
+msgstr ""
+
+#: inc/redux-sections/styling.php:600
+msgctxt "Styling Typography"
+msgid "Heading 6 (H6)"
+msgstr ""
+
+#: inc/redux-sections/styling.php:509
+msgctxt "Styling Typography"
+msgid "Heading Styles"
+msgstr ""
+
+#: inc/redux-sections/styling.php:251
+msgctxt "Styling Typography"
+msgid "Headline Font"
+msgstr ""
+
+#: inc/redux-sections/styling.php:257
+msgctxt "Styling Typography"
+msgid "Headline Font Family"
+msgstr ""
+
+#: inc/redux-sections/styling.php:484
+msgctxt "Styling Typography"
+msgid "Menu"
+msgstr ""
+
+#: inc/redux-sections/styling.php:184
+msgctxt "Styling Typography"
+msgid "See Advanced Settings"
+msgstr ""
+
+#: inc/redux-sections/styling.php:415
+msgctxt "Styling Typography"
+msgid "Site Tagline"
+msgstr ""
+
+#: inc/redux-sections/styling.php:396
+msgctxt "Styling Typography"
+msgid "Site Title"
+msgstr ""
+
+#: inc/redux-sections/styling.php:467
+msgctxt "Styling Typography"
+msgid "Text"
+msgstr ""
+
+#: inc/redux-sections/styling.php:440
+msgctxt "Styling Typography"
+msgid "Text and Content Styles"
+msgstr ""
+
+#: inc/redux-sections/styling.php:446
+msgctxt "Styling Typography"
+msgid "Title"
+msgstr ""
+
+#: inc/redux-sections/styling.php:390
+msgctxt "Styling Typography"
+msgid "Title and Tagline Styles"
+msgstr ""
+
+#: inc/redux-sections/styling.php:177
+msgctxt "Styling Typography"
+msgid "Typography"
+msgstr ""
+
+#: inc/redux-sections/styling.php:193
+msgctxt "Styling Typography"
+msgid "Uppercase Heading & Title Styling"
+msgstr ""
+
+#: inc/template-tags.php:324
+msgctxt "Tag link title"
+msgid "Tag"
+msgstr ""
+
+#: inc/widgets.php:94
+msgctxt "Widgets"
+msgid "Add an optin form defined in Theme Options > Widget section."
+msgstr ""
+
+#: inc/widgets.php:15
+msgctxt "Widgets"
+msgid "Display social profile links in your sidebar"
+msgstr ""
+
+#: inc/hooks.php:264
+msgctxt "Widgets"
+msgid "Footer Sidebar #%d"
+msgstr ""
+
+#: inc/widgets.php:59
+#, php-format
+msgctxt "Widgets"
+msgid ""
+"Only non empty profiles defined in <a href=\"%s\">Theme options / Social / "
+"Profile Options</a> will be displayed."
+msgstr ""
+
+#: inc/widgets.php:97
+msgctxt "Widgets"
+msgid "OptimizePress Optin Form"
+msgstr ""
+
+#: inc/widgets.php:18
+msgctxt "Widgets"
+msgid "OptimizePress Social Profiles"
+msgstr ""
+
+#: functions.php:136
+msgctxt "Widgets"
+msgid "Shop Product Details Sidebar"
+msgstr ""
+
+#: functions.php:126
+msgctxt "Widgets"
+msgid "Shop Sidebar"
+msgstr ""
+
+#: functions.php:115
+msgctxt "Widgets"
+msgid "Sidebar"
+msgstr ""
+
+#: inc/widgets.php:56
+msgctxt "Widgets"
+msgid "Title:"
+msgstr ""
+
+#: inc/redux-sections/woocommerce.php:21 inc/redux-sections/woocommerce.php:42
+msgctxt "WooCommerce"
+msgid "Choose position of a sidebar"
+msgstr ""
+
+#: inc/redux-sections/woocommerce.php:63
+msgctxt "WooCommerce"
+msgid ""
+"Custom short description that is shown on Shop page and in Related products "
+"boxes under the title of every product. Field must be filled on individual "
+"products."
+msgstr ""
+
+#: inc/redux-sections/woocommerce.php:25 inc/redux-sections/woocommerce.php:46
+msgctxt "WooCommerce"
+msgid "No Sidebar"
+msgstr ""
+
+#: inc/woocommerce.php:113
+msgctxt "WooCommerce"
+msgid "out of 5"
+msgstr ""
+
+#: inc/redux-sections/woocommerce.php:20
+msgctxt "WooCommerce"
+msgid "Product Archive Layout"
+msgstr ""
+
+#: inc/redux-sections/woocommerce.php:41
+msgctxt "WooCommerce"
+msgid "Product Layout"
+msgstr ""
+
+#: inc/woocommerce.php:112
+#, php-format
+msgctxt "WooCommerce"
+msgid "Rated %s out of 5"
+msgstr ""
+
+#: inc/redux-sections/woocommerce.php:12
+msgctxt "WooCommerce"
+msgid "Show Cart Icon in header"
+msgstr ""
+
+#: inc/redux-sections/woocommerce.php:62
+msgctxt "WooCommerce"
+msgid "Show Product Custom Short Description"
+msgstr ""
+
+#: inc/redux-sections/woocommerce.php:29 inc/redux-sections/woocommerce.php:50
+msgctxt "WooCommerce"
+msgid "Sidebar Left"
+msgstr ""
+
+#: inc/redux-sections/woocommerce.php:33 inc/redux-sections/woocommerce.php:54
+msgctxt "WooCommerce"
+msgid "Sidebar Right"
+msgstr ""
+
+#: inc/redux-sections/woocommerce.php:78
+msgctxt "WooCommerce Hero"
+msgid "Hero Background Colour"
+msgstr ""
+
+#: inc/redux-sections/woocommerce.php:86
+msgctxt "WooCommerce Hero"
+msgid "Hero Text Colour"
+msgstr ""
+
+#: inc/redux-sections/woocommerce.php:72
+msgctxt "WooCommerce Hero"
+msgid "WooCommerce Hero"
+msgstr ""
+
+#: inc/redux-sections/woocommerce.php:105
+msgctxt "WooCommerce Styling"
+msgid "Buttons Background Colour"
+msgstr ""
+
+#: inc/redux-sections/woocommerce.php:130
+msgctxt "WooCommerce Styling"
+msgid "Buttons Text Colour"
+msgstr ""
+
+#: inc/redux-sections/woocommerce.php:151
+msgctxt "WooCommerce Styling"
+msgid "Prices Colour"
+msgstr ""
+
+#: inc/redux-sections/woocommerce.php:165
+msgctxt "WooCommerce Styling"
+msgid "Rating Colour"
+msgstr ""
+
+#: inc/redux-sections/woocommerce.php:99
+msgctxt "WooCommerce Styling"
+msgid "WooCommerce Styling"
+msgstr ""

@@ -1,0 +1,53 @@
+/**
+ * OptimizePress3 StickyActiveMobile property
+ */
+;(function($, window, document) {
+
+    "use strict";
+
+    /**
+     * OP3_Property constructor
+     *
+     * @param {Class}
+     */
+    OP3.Elements._extension.prop.StickyActiveMobile = OP3.defineClass({
+
+        Name: "OP3.Property.StickyActiveMobile",
+
+        Extends: OP3.Elements._extension.prop.Default,
+
+        Constructor: function(properties) {
+            return OP3.Elements._extension.prop.Default.apply(this, arguments);
+        },
+
+        Prototype: {
+
+            _name: "stickyActiveMobile",
+
+            _defaults: {
+                label: function() {
+                    return OP3._("Apply on Mobile");
+                },
+                selector: " [data-op3-sticky-active-mobile]",
+                tag: "select",
+                options: [
+                    { "0": "No" },
+                    { "1": "Yes" },
+                ],
+            },
+
+            _forceComputed: true,
+
+            computed: function() {
+                return $(this.target()).attr("data-op3-sticky-active-mobile") || "0";
+            },
+
+            setter: function(value, media) {
+                $(this.target()).attr("data-op3-sticky-active-mobile", value);
+            },
+
+        },
+
+    });
+
+})(jQuery, window, document);

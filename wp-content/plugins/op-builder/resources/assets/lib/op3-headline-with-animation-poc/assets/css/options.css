@@ -1,0 +1,32 @@
+iframe { position: fixed; top: 1em; right: 1em; width: 240px; border: 0; border-radius: 4px; background: #fff; box-shadow: 0 0 4px rgba(0, 0, 0, 0.2); user-select: none; }
+
+.options { width: 240px; margin: 0; padding: 0; line-height: 1.75; font-size: 16px; user-select: none; }
+.options *:focus { outline: none; }
+.options a { color: #0175ff; text-decoration: none; }
+.options nav ul { display: flex; margin: 0; padding: 0 1em; list-style: none; }
+.options nav ul li { display: block; flex: 1; }
+.options nav ul li a { display: block; margin: 0.5em; padding: 0.5em; }
+.options nav ul li a.disabled { opacity: 0.4; pointer-events: none; }
+.options section { padding: 1em; box-shadow: 0 0 4px rgba(0, 0, 0, 0.2); }
+.options label,
+.options p { display: block; margin: 1em 0 0 0; }
+.options label { text-align: left; cursor: pointer; }
+.options label:first-child,
+.options p:first-child { margin-top: 0; }
+.options label span { display: inline-block; font-size: 14px; color: #333; }
+.options label select,
+.options label textarea,
+.options label input:not([type="checkbox"]) { display: block; width: 100%; height: 2.25em; padding: 0.25em 0.5em; font-size: 14px; font-family: inherit; border: 1px solid #bbb; border-radius: 4px; background: #fff; color: #333; resize: none; }
+.options label select:focus,
+.options label input:focus { border-color: #888; }
+.options label textarea { height: 4.25em; line-height: 1.25; }
+.options .toggle-switch input { display: none; }
+.options .toggle-switch .toggle-switch-wrapper { display: inline-block; width: 56px; height: 24px; margin: 0 0.5em 0 0; padding: 4px; vertical-align: middle; background: #8e8e8e; border-radius: 50px; overflow: hidden; cursor: pointer; transition: all 0.2s ease-in-out; }
+.options .toggle-switch .toggle-switch-content { position: relative; height: 100%; line-height: 0; transition: inherit; will-change: transform; }
+.options .toggle-switch .toggle-switch-content::before, .toggle-switch .toggle-switch-content::after { position: absolute; width: calc(100% - 16px); height: 16px; line-height: 16px; font-size: 14px; font-weight: 400; text-align: center; color: inherit; }
+.options .toggle-switch .toggle-switch-content::before { content: attr(data-toggle-switch-value-1); right: 100%; color: #fff; }
+.options .toggle-switch .toggle-switch-content::after { content: attr(data-toggle-switch-value-0); right: 0; color: #fff; }
+.options .toggle-switch .toggle-switch-handle { position: relative; display: inline-block; width: 16px; height: 16px; background: #fff; border-radius: 50%; }
+.options .toggle-switch input:checked + .toggle-switch-wrapper { background: #0175ff; }
+.options .toggle-switch input:checked + .toggle-switch-wrapper .toggle-switch-content { transform: translateX(calc(100% - 16px)); }
+.options .button { display: block; padding: 0.5em; border-radius: 4px; background: #0175ff; color: #fff; }

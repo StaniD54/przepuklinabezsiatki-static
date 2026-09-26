@@ -1,0 +1,1 @@
+!function(t,e){t.querySelectorAll(".rich-text-animation[data-rich-text-animation]").forEach(function(t){var n="RichTextAnimation"+t.getAttribute("data-rich-text-animation").replace(/-(\w)/g,function(t,e){return e.toUpperCase()}).replace(/^\w/g,function(t){return t.toUpperCase()});"function"==typeof e[n]&&new e[n](t).observe()})}(document,window);

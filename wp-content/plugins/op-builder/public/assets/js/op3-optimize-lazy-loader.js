@@ -1,0 +1,1 @@
+window.addEventListener("DOMContentLoaded",function(t){var e={useNative:OP3.Settings&&OP3.Settings.lazyLoadAssets&&"native+js"===OP3.Settings.lazyLoadAssets};new OptimizeLazyLoader(e).start()});

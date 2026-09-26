@@ -1,0 +1,224 @@
+/* Allkeystore Updater — Admin Panel v3 */
+
+.aks-updater-wrap {
+    max-width: 950px;
+}
+
+.aks-nav-tabs {
+    margin-bottom: 20px;
+}
+
+/* Sekcje w ustawieniach */
+.aks-section {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.aks-section:last-child {
+    border-bottom: none;
+}
+
+.aks-section h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Status rejestracji — wiersz z ikoną kosza */
+.aks-registered-status {
+    padding: 12px 16px;
+    background: #f0f6e8;
+    border-left: 4px solid #46b450;
+    margin-bottom: 15px;
+}
+
+.aks-registered-row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.aks-registered-info {
+    flex: 1;
+}
+
+.aks-status-ok {
+    font-weight: 600;
+    color: #2e7d32;
+    font-size: 14px;
+}
+
+.aks-registered-status code {
+    background: #e8e8e8;
+    padding: 2px 6px;
+    font-size: 12px;
+}
+
+.aks-remaining-slots {
+    margin-top: 6px;
+}
+
+.aks-remaining-slots strong {
+    font-size: 15px;
+    color: #1e40af;
+}
+
+/* Ikona kosza — wyrejestrowanie */
+.aks-trash-btn {
+    background: none;
+    border: none;
+    font-size: 28px;
+    cursor: pointer;
+    color: #dc2626;
+    padding: 4px 8px;
+    line-height: 1;
+    border-radius: 4px;
+    transition: background 0.2s, transform 0.15s;
+    flex-shrink: 0;
+}
+
+.aks-trash-btn:hover {
+    background: #fef2f2;
+    transform: scale(1.15);
+}
+
+/* Loading spinner */
+.aks-loading {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 12px;
+    font-size: 13px;
+    color: #666;
+}
+
+.aks-loading .spinner {
+    float: none;
+    margin: 0;
+}
+
+/* Tabela aktualizacji */
+.aks-updates-table {
+    margin-top: 20px;
+}
+
+.aks-updates-table thead th {
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 0.3px;
+    padding: 10px 12px;
+}
+
+.aks-updates-table tbody td {
+    font-size: 14px;
+    padding: 10px 12px;
+}
+
+.aks-updates-table .column-type {
+    width: 90px;
+}
+
+.aks-updates-table .column-local-version,
+.aks-updates-table .column-store-version {
+    width: 140px;
+}
+
+.aks-updates-table .column-download {
+    width: 140px;
+    text-align: center;
+}
+
+.aks-updates-table .column-download a.button {
+    min-width: 80px;
+    text-align: center;
+}
+
+/* Tabela podłączonych witryn */
+.aks-sites-table {
+    margin-top: 10px;
+}
+
+.aks-sites-table thead th {
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 0.3px;
+}
+
+/* Wyróżnienie bieżącej strony */
+.aks-sites-table tr.aks-current-site td {
+    border-top: 2px solid #2563eb;
+    border-bottom: 2px solid #2563eb;
+    background: #eef2ff;
+}
+
+.aks-sites-table tr.aks-current-site td:first-child {
+    border-left: 3px solid #2563eb;
+}
+
+.aks-sites-table tr.aks-current-site td:last-child {
+    border-right: 3px solid #2563eb;
+}
+
+/* Brak aktualizacji */
+.aks-no-updates {
+    margin-top: 20px;
+    padding: 15px 20px;
+    background: #f0f6e8;
+    border-left: 4px solid #46b450;
+    font-size: 13px;
+    color: #333;
+}
+
+/* Notice */
+.aks-notice {
+    margin: 15px 0;
+}
+
+/* Ustawienia */
+.aks-tab-content .form-table th {
+    width: 160px;
+}
+
+/* Checkbox ustawień */
+.aks-checkbox-wrap {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.aks-checkbox-wrap input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    margin: 0;
+    cursor: pointer;
+}
+
+.aks-checkbox-label {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.aks-checkbox-desc {
+    margin: 4px 0 0 38px;
+    font-size: 12px;
+    color: #666;
+}
+
+/* Animacja zapisu — zielony flash */
+.aks-saved-flash {
+    background-color: #d4edda;
+}
+
+@keyframes aks-flash {
+    0% { background-color: #d4edda; }
+    100% { background-color: transparent; }
+}
+
+.aks-checkbox-wrap.aks-saved-flash {
+    animation: aks-flash 1.2s ease-out forwards;
+}

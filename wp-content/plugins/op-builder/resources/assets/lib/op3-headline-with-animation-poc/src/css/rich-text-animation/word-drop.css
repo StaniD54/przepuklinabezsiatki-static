@@ -1,0 +1,1 @@
+.rich-text-animation[data-rich-text-animation="word-drop"] [data-rich-text-animation-word]:not(:first-child) { position: absolute; opacity: 0; transform: translateY(-100%); }

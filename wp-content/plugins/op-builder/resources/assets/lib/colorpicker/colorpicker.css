@@ -1,0 +1,94 @@
+/* elements */
+.jquery-colorpicker { }
+.jquery-colorpicker-widget { position: absolute; display: none; width: 15em; margin: 0; padding: 1em; font-size: 16px; color: #666; background-color: #fff; border: 1px solid #ccc; border-radius: 0.25em; font-family: Helvetica, "Helvetica Neue", Arial, sans-serif; user-select: none; z-index: 1000; }
+.jquery-colorpicker-widget.jquery-colorpicker-show { display: block; }
+.jquery-colorpicker-preview { position: relative; display: inline-block; outline: none; vertical-align: middle; font-size: inherit; font-size: 0.6875em; color: #888; }
+.jquery-colorpicker-preview-css { width: 2em; height: 2em; margin-left: 0.5em; line-height: 1; color: red; background-color: currentColor; box-shadow: inset 0 0 0 1em #fff; border: 1px solid #ccc; vertical-align: middle; border-radius: 0.1875em; box-sizing: border-box; }
+.jquery-colorpicker-preview-css:first-child { margin-left: 0; }
+.jquery-colorpicker-preview-css::before,
+.jquery-colorpicker-preview-css::after { content: ""; position: absolute; display: block; top: 3px; right: 3px; bottom: 3px; left: 3px; }
+.jquery-colorpicker-preview-css::after { color: inherit; background-color: currentColor; box-shadow: 0 0 0 0 currentColor; }
+.jquery-colorpicker-preview-scheme:empty { display: none; }
+.jquery-colorpicker-preview-scheme::before { content: "\1f3a8"; display: inline-block; width: 1.25em; height: 1.25em; margin: 0 0.25em 0 0.5em; }
+.jquery-colorpicker-background-opacity::before { background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAIAAADZF8uwAAAAGUlEQVQYV2M4gwH+YwCGIasIUwhT25BVBADtzYNYrHvv4gAAAABJRU5ErkJggg==) center center; }
+
+/* reset */
+.jquery-colorpicker-widget article,
+.jquery-colorpicker-widget nav,
+.jquery-colorpicker-widget ul,
+.jquery-colorpicker-widget li,
+.jquery-colorpicker-widget button,
+.jquery-colorpicker-widget a { display: block; height: auto; margin: 0; padding: 0; font-size: 1em; line-height: 1; font-weight: normal; text-decoration: none; outline: 0; color: inherit; }
+.jquery-colorpicker-widget p { font-size: 0.8em; line-height: 1.4; user-select: text; }
+.jquery-colorpicker-widget label { display: inline-block; font-size: 1em; color: #666; }
+.jquery-colorpicker-widget input { display: inline-block; width: 6em; height: 2em; line-height: normal; margin: 0 0.125em 0 0.5em; padding: 0 0.5em; font-family: inherit; font-size: inherit; font-size: 0.6875em; font-family: inherit; background: #fff; color: #999; border: 1px solid #ccc;  border-radius: 3px; box-sizing: border-box; vertical-align: top; outline: none; vertical-align: middle; }
+.jquery-colorpicker-widget label span { font-size: 0.6875em; vertical-align: middle; }
+.jquery-colorpicker-widget input[type="number"] { width: 4em; padding-right: 0; text-align: right; }
+
+/* align arrow */
+.jquery-colorpicker-widget::after { content: ""; position: absolute; width: 0; height: 0; border: 6px solid #fff; }
+.jquery-colorpicker-widget[data-align^="top"]::after { top: 100%; left: 50%; transform: translateX(-50%); border-right-color: transparent; border-bottom-color: transparent; border-left-color: transparent; filter: drop-shadow(0 2px 1px #bbb); }
+.jquery-colorpicker-widget[data-align="top-left"]::after { left: calc(0% + var(--arrow-offset)); }
+.jquery-colorpicker-widget[data-align="top-right"]::after { left: calc(100% - var(--arrow-offset)); }
+.jquery-colorpicker-widget[data-align^="bottom"]::after { bottom: 100%; left: 50%; transform: translateX(-50%); border-top-color: transparent; border-right-color: transparent; border-left-color: transparent; filter: drop-shadow(0px -1px 0px #bbb); }
+.jquery-colorpicker-widget[data-align="bottom-left"]::after { left: calc(0% + var(--arrow-offset)); }
+.jquery-colorpicker-widget[data-align="bottom-right"]::after { left: calc(100% - var(--arrow-offset)); }
+.jquery-colorpicker-widget[data-align^="left"]::after { left: 100%; top: 50%; transform: translateY(-50%); border-top-color: transparent; border-right-color: transparent; border-bottom-color: transparent; filter: drop-shadow(1px 0px 0px #bbb); }
+.jquery-colorpicker-widget[data-align="left-top"]::after { top: calc(0% + var(--arrow-offset)); }
+.jquery-colorpicker-widget[data-align="left-bottom"]::after { top: calc(100% - var(--arrow-offset)); }
+.jquery-colorpicker-widget[data-align^="right"]::after { right: 100%; top: 50%; transform: translateY(-50%); border-top-color: transparent; border-bottom-color: transparent; border-left-color: transparent; filter: drop-shadow(-1px 0px 0px #bbb); }
+.jquery-colorpicker-widget[data-align="right-top"]::after { top: calc(0% + var(--arrow-offset)); }
+.jquery-colorpicker-widget[data-align="right-bottom"]::after { top: calc(100% - var(--arrow-offset)); }
+
+/* classes */
+.jquery-colorpicker-widget .jquery-colorpicker-row { display: block; width: 100%; margin-top: 1em; }
+.jquery-colorpicker-widget .jquery-colorpicker-row:first-child { margin-top: 0; }
+.jquery-colorpicker-widget .jquery-colorpicker-list { display: flex; overflow: hidden; border-radius: 3px; }
+.jquery-colorpicker-widget .jquery-colorpicker-item { display: block; flex-grow: 1; flex-basis: 0; }
+.jquery-colorpicker-widget .jquery-colorpicker-split { display: flex; }
+.jquery-colorpicker-widget .jquery-colorpicker-split > * { position: relative; }
+.jquery-colorpicker-widget .jquery-colorpicker-split > *:first-child { flex: 1; }
+.jquery-colorpicker-widget .jquery-colorpicker-split > *:last-child:not(:first-child) { width: 1.5em; margin-left: 1em; }
+.jquery-colorpicker-widget .jquery-colorpicker-float-left { float: left; }
+.jquery-colorpicker-widget .jquery-colorpicker-float-right { float: right; }
+.jquery-colorpicker-widget .jquery-colorpicker-disabled { pointer-events: none !important; opacity: 0.4 !important; }
+
+/* tabs */
+.jquery-colorpicker-widget .jquery-colorpicker-tabs { font-size: 0.8em; line-height: 1.26; }
+.jquery-colorpicker-widget .jquery-colorpicker-tabs .jquery-colorpicker-list { border-radius: 0; }
+.jquery-colorpicker-widget .jquery-colorpicker-tabs .jquery-colorpicker-item { margin-right: 1em; flex-grow: 0; flex-basis: auto; }
+.jquery-colorpicker-widget [data-tab-open] { color: #8e8e8e; opacity: 0.8; }
+.jquery-colorpicker-widget [data-tab-open]:hover { opacity: 1; }
+.jquery-colorpicker-widget [data-tab-open].jquery-colorpicker-tab-selected { color: #333; }
+.jquery-colorpicker-widget [data-tab-content] { display: none; margin-top: 1em; }
+.jquery-colorpicker-widget [data-tab-content].jquery-colorpicker-tab-selected { display: block; }
+
+/* color palette */
+.jquery-colorpicker-widget [data-color-pick] { position: relative; display: block; min-height: 1.5em; background-color: currentColor; }
+.jquery-colorpicker-widget [data-color-pick]::before,
+.jquery-colorpicker-widget [data-color-pick]::after { content: ""; position: absolute; display: block; top: 0; right: 0; bottom: 0; left: 0; z-index: 1; }
+.jquery-colorpicker-widget [data-color-pick]::after { color: inherit; background-color: currentColor; box-shadow: 0 0 0 0 currentColor; }
+.jquery-colorpicker-widget .jquery-colorpicker-active[data-color-pick]::after { box-shadow: inset 0 0 0 1px #000, inset 0 0 0 2px #fff; }
+.jquery-colorpicker-widget [data-color-pick] span { position: relative; display: block; line-height: 2.25; font-size: 0.6875em; font-weight: bold; text-align: center; color: #fff; text-shadow: 0 0 1px rgba(0,0,0,0.75); opacity: 0.5; z-index: 2; }
+.jquery-colorpicker-widget .jquery-colorpicker-icon { font-size: 1.2em; line-height: 1.25; color: #8e8e8e; text-align: center; text-decoration: none; opacity: 0.8; }
+.jquery-colorpicker-widget .jquery-colorpicker-icon:hover { opacity: 1; }
+
+/* light/hue/alpha */
+.jquery-colorpicker-widget .jquery-colorpicker-light { padding-top: calc(100% - 1em - 1.5em); color: red; background-color: currentColor; border-radius: 0.1875em; }
+.jquery-colorpicker-widget .jquery-colorpicker-light::before,
+.jquery-colorpicker-widget .jquery-colorpicker-light::after { content: ""; position: absolute; display: block; top: 0; right: 0; bottom: 0; left: 0; z-index: 1100; border-radius: 0.1875em; }
+.jquery-colorpicker-widget .jquery-colorpicker-light::before { background-image: linear-gradient(to right, #fff, rgba(204, 154, 129, 0)); }
+.jquery-colorpicker-widget .jquery-colorpicker-light::after { background-image: linear-gradient(to top, #000, rgba(204, 154, 129, 0)); }
+.jquery-colorpicker-widget .jquery-colorpicker-hue { padding-top: calc(100% - 1em - 1.5em); background-image: linear-gradient(to bottom, #f00 0%, #ff0 17%, #0f0 33%, #0ff 50%, #00f 67%, #f0f 83%, #f00 100%); border-radius: 0.1875em; }
+.jquery-colorpicker-widget .jquery-colorpicker-alpha { position: relative; height: 0.5em; color: red; background-color: transparent; border-radius: 0.1875em; }
+.jquery-colorpicker-widget .jquery-colorpicker-alpha::before,
+.jquery-colorpicker-widget .jquery-colorpicker-alpha::after { content: ""; position: absolute; display: block; top: 0; right: 0; bottom: 0; left: 0; z-index: 1; border-radius: 0.1875em; }
+.jquery-colorpicker-widget .jquery-colorpicker-alpha::after { color: inherit; box-shadow: 0 0 0 0 currentColor; background-image: linear-gradient(to right, transparent, currentColor); }
+
+/* draggable */
+.jquery-colorpicker-widget .jquery-colorpicker-draggable { position: relative; cursor: crosshair; }
+.jquery-colorpicker-widget .jquery-colorpicker-draggable-handle { position: absolute; display: block; top: auto; right: auto; bottom: auto; left: auto; width: 8px; height: 8px; z-index: 1200; border-radius: 50%; transform: translate(-50%, -50%); box-shadow: 0 0 0 2px #000, inset 0 0 0 2px #fff; box-sizing: content-box; }
+.jquery-colorpicker-widget .jquery-colorpicker-draggable.jquery-colorpicker-draggable-horizontal .jquery-colorpicker-draggable-handle { top: 50% !important; height: 125%; background-color: #fff; border-radius: 0.125em; box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.5); }
+.jquery-colorpicker-widget .jquery-colorpicker-draggable.jquery-colorpicker-draggable-vertical .jquery-colorpicker-draggable-handle { left: 50% !important; width: 100%; height: 2px; border: 2px solid #000; border-radius: 4px; box-shadow: none; }
+html.jquery-colorpicker-draggable-dragging,
+html.jquery-colorpicker-draggable-dragging * { cursor: crosshair !important; }

@@ -1,0 +1,1 @@
+.rich-text-animation[data-rich-text-animation="word-slide"] [data-rich-text-animation-word]:not(:first-child) { position: absolute; opacity: 0; transform: translateX(-100%); }

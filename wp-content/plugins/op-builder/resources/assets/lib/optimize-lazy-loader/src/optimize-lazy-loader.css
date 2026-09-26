@@ -1,0 +1,13 @@
+/*
+ * Hide image placeholder on browsers with no JS.
+ */
+html.no-js .oll[src^="data:image/svg+xml"] { display: none !important; }
+
+/*
+ * Remove background image on .oll-css elements (class will be
+ * removed by intersect observer making image visible), while
+ * JS is enabled/supported.
+ */
+html.js .oll-css,
+html.js .oll-css::before,
+html.js .oll-css::after { background-image: none !important; }

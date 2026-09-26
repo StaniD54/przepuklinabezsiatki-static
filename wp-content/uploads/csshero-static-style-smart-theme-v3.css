@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Alegreya+Sans+SC&family=Lato");#page > #main > #op3-designer-element #op3-element-ids2Vsha {
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+#page > #main > #op3-designer-element #op3-element-zMuvYHEC {
+  padding-bottom: 42px;
+}
+#page > #main > #op3-designer-element #op3-element-KRBHe6qk {
+  padding-bottom: 45px;
+  padding-top: 32px;
+}
+.page-template-op_builder_full_width .op-footer {
+  display: none;
+}
+.page-template-op_builder_full_width #page > #main > #op3-designer-element #op3-element-fZbbpBb5 {
+  color: #db3d14;
+  text-align: center;
+  font-weight: 800;
+  font-family: Abyssinica SIL;
+}
+#page > #main > #op3-designer-element #op3-element-fZbbpBb5 {
+  padding-top: 41px;
+  padding-bottom: 45px;
+}
+div > #op3-element-MPv3yLHc p {
+  font-size: 37px;
+}
+#op3-element-oKsVXMgA span {
+  font-size: 26px;
+}
+.op3-element[data-op3-element-type=section] {
+  padding-top: 53px;
+}
+#page > #main > #op3-designer-element #op3-element-Y1Wv83IG {
+  padding-top: 53px;
+}
+html[data-op3-support] #op3-designer-element h2 {
+  font-size: 32px;
+}
+#navbar .nav > .menu-item > a {
+  font-size: 20px;
+  -webkit-text-stroke-color: #eb1616;
+  color: rgba(169, 22, 235, 0.85);
+  font-weight: 500;
+  font-family: Alegreya Sans SC;
+}
+#masthead .navbar-brand {
+  font-size: 17px;
+}
+.op-navbar img {
+  font-size: 13px;
+  line-height: 10px;
+  max-width: auto;
+}
+body > #page > #main .op-homepage-hero {
+  opacity: 1;
+  border-width: 0px;
+  border-style: none;
+  background-image: linear-gradient(to right, red 0%, blue 100%);
+  background-blend-mode: normal;
+  height: 100%;
+}
+#main > div:nth-child(1) > header {
+  background-size: auto;
+}
+#main > div:nth-child(1) > header > div {
+  padding-bottom: 51px;
+  margin-top: -20px;
+  margin-bottom: 19px;
+  padding-top: 65px;
+}
+#main > div:nth-child(1) > header > div > div > div > h1 > a {
+  font-size: 98px;
+  line-height: 84px;
+}
+#main > div:nth-child(1) > header > div > div > div > h2 {
+  font-size: 46px;
+  line-height: 63px;
+  text-decoration: none;
+  font-family: Lato;
+}

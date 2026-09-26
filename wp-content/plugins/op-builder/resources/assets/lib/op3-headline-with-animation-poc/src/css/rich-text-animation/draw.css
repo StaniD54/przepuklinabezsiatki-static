@@ -1,0 +1,5 @@
+.rich-text-animation[data-rich-text-animation="draw"] svg { position: absolute; display: block; top: -0.1875em; right: -0.125em; bottom: -0.3125em; left: -0.125em; width: calc(100% + 0.25em); height: calc(100% + 0.5em);	pointer-events: none; z-index: -1; transition: inherit; animation: inherit; }
+.rich-text-animation[data-rich-text-animation="draw"] svg path { opacity: 0; transition: inherit; animation: inherit; }
+
+/* Some style speciffic svg tweaks */
+.rich-text-animation[data-rich-text-animation="draw"] svg[data-rich-text-animation-style="circle"] { top: -0.25em; right: -0.25em; bottom: 0; left: -0.25em; width: calc(100% + 0.5em); }

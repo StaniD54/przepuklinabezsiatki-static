@@ -1,0 +1,2 @@
+jQuery((function(i){i(".wp-admin").on("click",".ops-notice.is-dismissible .notice-dismiss",(function(s){var o=i(this).closest(".ops-notice"),e=o.data("dismiss-url");o.data("notice-id"),i.ajax({method:"get",url:e,success:function(i){},error:function(i){console.error(i)}}),s.preventDefault()}))}));
+//# sourceMappingURL=admin.js.map

@@ -1,0 +1,9 @@
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body { line-height: 1.75; font-family: "Ubuntu", sans-serif; text-align: center; color: #444; }
+
+.section { display: flex; height: 100vh; padding: 2em; flex-direction: column; justify-content: center; }
+.section .headline { max-width: 1024px; margin: 0 auto; font-size: 32px; font-weight: bold; outline: none; }
+.section .desc { max-width: 480px; margin: 1em auto; font-size: 20px; color: #888; }
+.section .desc:first-child { margin-top: 0; }
+.section .desc:last-child { margin-bottom: 0; }

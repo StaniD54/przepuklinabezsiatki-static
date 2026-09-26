@@ -1,93 +1,74 @@
-# sync-to-repo.ps1
-# Kopiuje wyniki Simply Static do repo przepuklinabezsiatki-static
-# Uruchom po każdym eksporcie Simply Static
+﻿# sync-to-repo.ps1  (wersja 2026-09-26)
+# Kopiuje eksport Simply Static do repo przepuklinabezsiatki-static i wysyla na GitHub -> Cloudflare Pages
+# Uzycie: 1) WP-admin (http://bezsiatki626.test/wp-admin) -> Simply Static -> Generate
+#         2) uruchom ten skrypt
 
-$SOURCE = "C:\laragon\www\bezsiatki626"
+$EXPORT = "C:\laragon\tmp\bezsiatki-static-export"   # tu Simply Static zapisuje eksport (Delivery: Local Directory)
+$WP     = "C:\laragon\www\bezsiatki626"               # WordPress (zrodlo themes/uploads)
 $REPO   = "C:\laragon\www\przepuklinabezsiatki-static"
 
-# Pliki i foldery do wykluczenia z uploads
-$EXCLUDE_UPLOADS = @(
-    "simply-static",
-    "iawp-geo-db.mmdb",
-    "ai1wm-backups",
-    "wp-cloudflare-super-page-cache"
-)
+$EXCLUDE_UPLOADS = @("simply-static", "iawp-geo-db.mmdb", "ai1wm-backups", "wp-cloudflare-super-page-cache", "wpmc-trash", "wpcf7_uploads")
 
-Write-Host "=== Sync Simply Static → repo ===" -ForegroundColor Cyan
+Write-Host "=== Sync Simply Static -> repo ===" -ForegroundColor Cyan
 
-# 1. Kopiuj pliki HTML z katalogu głównego statycznego eksportu
-Write-Host "`n[1/3] Kopiowanie plików HTML..." -ForegroundColor Yellow
-$htmlFiles = Get-ChildItem -Path $SOURCE -Filter "*.html" -Recurse |
-    Where-Object { $_.FullName -notmatch "wp-content|wp-includes|wp-admin" }
-
-foreach ($file in $htmlFiles) {
-    $relative = $file.FullName.Substring($SOURCE.Length + 1)
-    $dest = Join-Path $REPO $relative
-    $destDir = Split-Path $dest -Parent
-    if (-not (Test-Path $destDir)) { New-Item -ItemType Directory -Path $destDir -Force | Out-Null }
-    Copy-Item -Path $file.FullName -Destination $dest -Force
+# 0. Kontrola eksportu
+$idx = Join-Path $EXPORT "index.html"
+if (-not (Test-Path $idx)) {
+    Write-Host "BRAK eksportu w $EXPORT - najpierw uruchom Simply Static -> Generate" -ForegroundColor Red
+    Read-Host "Enter aby zamknac"; exit 1
 }
-Write-Host "  Skopiowano $($htmlFiles.Count) plików HTML" -ForegroundColor Green
+$age = (Get-Date) - (Get-Item $idx).LastWriteTime
+Write-Host ("Eksport z: {0}  ({1:N0} min temu)" -f (Get-Item $idx).LastWriteTime, $age.TotalMinutes)
+if ($age.TotalHours -gt 12) { Write-Host "UWAGA: eksport jest starszy niz 12 godzin!" -ForegroundColor DarkYellow }
+$old = Get-ChildItem $EXPORT -Recurse -Include *.html | Select-String -Pattern "513[ -]?711[ -]?268" -List
+if ($old) { Write-Host "UWAGA: stary numer 513 711 268 w:" -ForegroundColor Red; $old | ForEach-Object { "  " + $_.Path } }
 
-# 2. Kopiuj wp-content/themes
-Write-Host "`n[2/3] Kopiowanie themes..." -ForegroundColor Yellow
-$themeSrc  = Join-Path $SOURCE "wp-content\themes"
-$themeDest = Join-Path $REPO   "wp-content\themes"
-if (Test-Path $themeSrc) {
-    if (Test-Path $themeDest) { Remove-Item -Recurse -Force $themeDest }
-    Copy-Item -Recurse -Force $themeSrc $themeDest
-    Write-Host "  Themes skopiowane" -ForegroundColor Green
-} else {
-    Write-Host "  BRAK folderu themes w źródle!" -ForegroundColor Red
+# 0b. Poprawki adresow w eksporcie: lokalne domeny -> https://przepuklinabezsiatki.pl, canonical/og:url bezwzgledne
+Write-Host "`n[0/4] Poprawianie adresow w eksporcie..." -ForegroundColor Yellow
+$utf8 = New-Object System.Text.UTF8Encoding($false)
+$fixed = 0
+Get-ChildItem $EXPORT -Recurse -File -Include *.html,*.xml,*.js,*.css,*.json,*.txt | ForEach-Object {
+    $t = [IO.File]::ReadAllText($_.FullName, $utf8)
+    $n = [regex]::Replace($t, 'https?:(\\?/)(\\?/)(?:bezsiatki626|siatka20062026)\.test', 'https:$1$2przepuklinabezsiatki.pl')
+    $n = [regex]::Replace($n, '(<link rel="canonical" href="|<meta property="og:url" content=")/', '$1https://przepuklinabezsiatki.pl/')
+    if ($n -ne $t) { [IO.File]::WriteAllText($_.FullName, $n, $utf8); $fixed++ }
 }
+Write-Host "  Poprawiono plikow: $fixed" -ForegroundColor Green
 
-# 3. Kopiuj wp-content/uploads (z wykluczeniami)
-Write-Host "`n[3/3] Kopiowanie uploads (bez wykluczonych)..." -ForegroundColor Yellow
-$uploadSrc  = Join-Path $SOURCE "wp-content\uploads"
-$uploadDest = Join-Path $REPO   "wp-content\uploads"
-if (Test-Path $uploadSrc) {
-    if (Test-Path $uploadDest) { Remove-Item -Recurse -Force $uploadDest }
-    New-Item -ItemType Directory -Path $uploadDest -Force | Out-Null
+# 1. Themes z WordPressa
+Write-Host "`n[1/4] Kopiowanie themes..." -ForegroundColor Yellow
+$themeSrc = Join-Path $WP "wp-content\themes"; $themeDest = Join-Path $REPO "wp-content\themes"
+if (Test-Path $themeDest) { Remove-Item -Recurse -Force $themeDest }
+Copy-Item -Recurse -Force $themeSrc $themeDest
 
-    Get-ChildItem -Path $uploadSrc -Recurse |
-        Where-Object {
-            $item = $_
-            $excluded = $false
-            foreach ($ex in $EXCLUDE_UPLOADS) {
-                if ($item.FullName -match [regex]::Escape($ex)) {
-                    $excluded = $true
-                    break
-                }
-            }
-            # Wyklucz pliki > 24MB (limit Cloudflare Pages to 25MB)
-            if (-not $item.PSIsContainer -and $item.Length -gt 24MB) {
-                Write-Host "  POMINIĘTO (za duży): $($item.Name) ($([math]::Round($item.Length/1MB,1)) MB)" -ForegroundColor DarkYellow
-                $excluded = $true
-            }
-            -not $excluded
-        } |
-        ForEach-Object {
-            $relative = $_.FullName.Substring($uploadSrc.Length + 1)
-            $dest = Join-Path $uploadDest $relative
-            if ($_.PSIsContainer) {
-                if (-not (Test-Path $dest)) { New-Item -ItemType Directory -Path $dest -Force | Out-Null }
-            } else {
-                $destDir = Split-Path $dest -Parent
-                if (-not (Test-Path $destDir)) { New-Item -ItemType Directory -Path $destDir -Force | Out-Null }
-                Copy-Item -Path $_.FullName -Destination $dest -Force
-            }
-        }
-    Write-Host "  Uploads skopiowane" -ForegroundColor Green
-} else {
-    Write-Host "  BRAK folderu uploads w źródle!" -ForegroundColor Red
-}
+# 2. Uploads z WordPressa (z wykluczeniami, bez plikow > 24 MB - limit Cloudflare Pages 25 MB)
+Write-Host "`n[2/4] Kopiowanie uploads..." -ForegroundColor Yellow
+$uploadSrc = Join-Path $WP "wp-content\uploads"; $uploadDest = Join-Path $REPO "wp-content\uploads"
+if (Test-Path $uploadDest) { Remove-Item -Recurse -Force $uploadDest }
+$xd = $EXCLUDE_UPLOADS | ForEach-Object { Join-Path $uploadSrc $_ }
+robocopy $uploadSrc $uploadDest /E /MAX:25165824 /XD $xd /XF iawp-geo-db.mmdb /NFL /NDL /NJH /NP | Out-Null
+if ($LASTEXITCODE -ge 8) { Write-Host "  BLAD kopiowania uploads" -ForegroundColor Red; Read-Host; exit 1 }
 
-# 4. Git commit i push
-Write-Host "`n[4/4] Git commit i push..." -ForegroundColor Yellow
+# 3. Eksport Simply Static (HTML + uzyte pliki wp-content/wp-includes, w tym CSS pluginow)
+Write-Host "`n[3/4] Kopiowanie eksportu Simply Static..." -ForegroundColor Yellow
+robocopy $EXPORT $REPO /E /MAX:25165824 /XD (Join-Path $EXPORT ".git") /NFL /NDL /NJH /NP | Out-Null
+if ($LASTEXITCODE -ge 8) { Write-Host "  BLAD kopiowania eksportu" -ForegroundColor Red; Read-Host; exit 1 }
+$n = (Get-ChildItem $EXPORT -Recurse -Filter index.html).Count
+Write-Host "  Skopiowano eksport ($n stron)" -ForegroundColor Green
+
+# 4. Git: sprzatanie, commit, push
+Write-Host "`n[4/4] Git..." -ForegroundColor Yellow
 Set-Location $REPO
+git rm -r -q --ignore-unmatch "simply-static-1-1780582164" "readme.html" | Out-Null
 git add -A
+git status --short | Select-Object -First 40
+$cnt = (git status --short | Measure-Object).Count
+Write-Host "Zmienionych plikow: $cnt"
+if ($cnt -eq 0) { Write-Host "Brak zmian - nic do wyslania." -ForegroundColor Green; Read-Host "Enter aby zamknac"; exit 0 }
+Read-Host "Enter = commit i wyslanie na Cloudflare  (Ctrl+C = przerwij)"
 $date = Get-Date -Format "yyyy-MM-dd HH:mm"
-git commit -m "aktualizacja strony statycznej $date"
+git commit -q -m "aktualizacja strony statycznej $date"
 git push origin main
 
-Write-Host "`n=== Gotowe ===" -ForegroundColor Cyan
+Write-Host "`n=== Gotowe - Cloudflare Pages zbuduje strone w ciagu 1-2 min ===" -ForegroundColor Cyan
+Read-Host "Enter aby zamknac"

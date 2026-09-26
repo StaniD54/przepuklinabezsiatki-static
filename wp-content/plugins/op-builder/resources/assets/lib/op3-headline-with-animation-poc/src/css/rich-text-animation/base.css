@@ -1,0 +1,16 @@
+/* Defaults */
+.rich-text-animation { position: relative; display: inline-block; z-index: 1; white-space: nowrap; text-decoration: inherit; transition: 600ms all ease; }
+
+/* Adding zero-width text will make sure our element always have height set */
+.rich-text-animation::before { content: "\200b"; }
+
+/* Contenteditable fix */
+.rich-text-animation span,
+.rich-text-animation b,
+.rich-text-animation strong,
+.rich-text-animation i,
+.rich-text-animation em,
+.rich-text-animation u,
+.rich-text-animation s,
+.rich-text-animation del,
+.rich-text-animation strike { transition: inherit; }
