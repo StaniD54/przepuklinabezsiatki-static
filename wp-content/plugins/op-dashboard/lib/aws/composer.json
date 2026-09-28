@@ -1,0 +1,32 @@
+{
+    "name": "optimizepress/aws",
+    "description": "AWS PHP SDK",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Boris Strahija",
+            "email": "bstrahija@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "OptimizePress\\Vendors\\Aws\\": "aws-sdk-php/src/",
+            "OptimizePress\\Vendors\\JmesPath\\": "jmespath.php/src/"
+        },
+        "files": [
+            "aws-sdk-php\/src\/functions.php",
+            "jmespath.php\/src\/JmesPath.php"
+        ]
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev",
+    "repositories": [
+        { "type": "composer", "url": "https://satis.influendo.com/" }
+    ],
+    "config": {
+        "preferred-install": "dist"
+    }
+}

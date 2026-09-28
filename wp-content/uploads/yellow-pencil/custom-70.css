@@ -1,0 +1,855 @@
+/*
+
+    The following CSS codes are created by the YellowPencil plugin.
+    https://yellowpencil.waspthemes.com/
+
+
+    T A B L E   O F   C O N T E N T S
+    ........................................................................
+
+    01. Global Styles
+    02. Post Template
+    03. Page Template
+    04. "Główna" Page
+    05. "Co po kolei" Page
+    06. "Metody" Page
+    07. "Met. Shouldice" Page
+    08. "Modyfikacje Bassiniego" Page
+    09. "Czy siatka może się rozerwać?" Post
+    10. "Siatka przepuklinowa" Page
+    11. "Met. Bassiniego" Page
+    12. "Bez operacji" Page
+    13. "Koszty" Page
+    14. "Ból przewlekły po operacji przepukliny" Post
+    15. "W szpitalu" Page
+    16. "Co wybrać dla siebie?" Page
+    17. "Nawrót dolegliwości po laparoskopowej operacji przepukliny" Post
+    18. "Wstęp" Page
+    19. "Out" Page
+    20. "Opinie chorych" Page
+    21. "Konsultacje" Page
+    22. "On-line" Page
+
+*/
+
+
+
+/*-----------------------------------------------*/
+/*  Global Styles                                */
+/*-----------------------------------------------*/
+body .navbar-nav .sub-menu a{
+	color:#2980b9 !important;
+	font-size:18px !important;
+	text-align:left;
+	text-shadow:rgba(0, 0, 0, 0.3) 0px 1px 1px;
+	font-weight:400;
+	background-color:transparent;
+}
+
+body #navbar .navbar-nav{
+	-webkit-transform:translatex(0px) translatey(0px);	-ms-transform:translatex(0px) translatey(0px);	transform:translatex(0px) translatey(0px);
+}
+
+body .navbar-nav > .menu-item > a{
+	color:#34495e !important;
+}
+
+body .op-footer .footer-copyright p{
+	font-size:14px;
+	color:#7f8c8d;
+}
+
+body .hentry .op-blog-post header{
+	min-height:0px;
+	height:185px;
+	padding-top:0px;
+}
+
+body .op-blog-post-header .op-blog-header-content{
+	position:static;
+	-webkit-transform: translatey(-207px);	-ms-transform: translatey(-207px);	transform: translatey(-207px);
+	min-height:623px;
+}
+
+body .op-blog-post .op-blog-post-header .op-blog-hero-background{
+	-webkit-transform:translatex(0px) translatey(0px);	-ms-transform:translatex(0px) translatey(0px);	transform:translatex(0px) translatey(0px);
+	background-color:#3498db;
+	height:185px;
+}
+
+body .footer-copyright p a{
+	display:none;
+}
+
+body #main > div > div > .op3-element > div > div > .op3-element > div > div > .op3-element > .op3-background-parent{
+	-webkit-transform:translatex(0px) translatey(0px);	-ms-transform:translatex(0px) translatey(0px);	transform:translatex(0px) translatey(0px);
+}
+
+@media (max-width:200px){
+
+	body .mobile-header-large div h1{
+	-webkit-transform:translatex(0px) translatey(0px);	-ms-transform:translatex(0px) translatey(0px);	transform:translatex(0px) translatey(0px);
+}
+
+body #main div div .op3-element div div .op3-element div div .op3-element .op3-background-parent div div .mobile-header-large .op3-headline-wrapper div h1{
+	font-size:22px !important;
+	}
+
+}
+
+
+
+/*-----------------------------------------------*/
+/*  Post Template                                */
+/*-----------------------------------------------*/
+body.single-post .hentry .op-blog-post header{
+	-webkit-transform:translatex(0px) translatey(0px);	-ms-transform:translatex(0px) translatey(0px);	transform:translatex(0px) translatey(0px);
+}
+
+body.single-post #wp-block-search__input-1{
+	display:none;
+}
+
+body.single-post .wp-block-search .wp-block-search__inside-wrapper .wp-element-button{
+	display:none;
+}
+
+body.single-post #block-2 .wp-block-search label{
+	display:none;
+}
+
+body.single-post #secondary{
+	display:none;
+}
+
+@media (min-width:992px){
+
+	body.single-post .op-entry .main-context{
+	width:1150px;
+	}
+
+}
+
+
+
+/*-----------------------------------------------*/
+/*  Page Template                                */
+/*-----------------------------------------------*/
+body.page:not(.home) .op3-element > div > div > .op3-element > div > div > .op3-element > .op3-background-parent > div > div > .op3-element > .op3-custom-html-wrapper > div button{
+	color:#f1c40f;
+	background-color:#3498db;
+}
+
+
+
+/*-----------------------------------------------*/
+/*  "Główna" Page                              */
+/*-----------------------------------------------*/
+body.page-id-113 .navbar-nav > .menu-item > a{
+	color:#16405f !important;
+}
+
+body.page-id-113 .navbar-header a h1{
+	color:#e67e22;
+	font-size:27px;
+}
+
+body.page-id-113 .footer-copyright p a{
+	display:none;
+}
+
+body.page-id-113 #page #main div:nth-child(2) div:nth-child(1) .op3-element:nth-child(3) > div:nth-child(1) > div:nth-child(1){
+
+	-webkit-transform:translatex(0px) translatey(0px) !important;	-ms-transform:translatex(0px) translatey(0px) !important;	transform:translatex(0px) translatey(0px) !important;
+}
+
+body.page-id-113 .op3-element:nth-child(3) > div:nth-child(1) > div:nth-child(1){
+
+	padding-bottom:1px;
+}
+
+body.page-id-113 .op3-element:nth-child(3) div div .op3-element div div .op3-element .op3-background-parent div div .op3-element .op3-headline-wrapper div h2{
+	font-size:47px;
+}
+
+@media (max-width:650px){
+
+	body.page-id-113 .op3-background-parent div div .op3-element div div .op3-element .op3-background-parent div div .op3-element .op3-headline-wrapper div h2{
+	line-height:1.4em !important;
+}
+
+body.page-id-113 .op3-element:nth-child(13) > div:nth-child(1) > div:nth-child(1){
+
+	width:721px;
+	min-height:106px;
+	}
+
+}
+
+
+
+/*-----------------------------------------------*/
+/*  "Co po kolei" Page                           */
+/*-----------------------------------------------*/
+body.page-id-284 .op3-background-parent div div .op3-element div div .op3-element .op3-background-parent div div .op3-element .op3-custom-html-wrapper div div button{
+	background-color:#3498db;
+	color:#f1c40f;
+}
+
+body.page-id-284 .op3-element:nth-child(2) > div:nth-child(1) > div:nth-child(1){
+
+	-webkit-transform:translatex(0px) translatey(0px);	-ms-transform:translatex(0px) translatey(0px);	transform:translatex(0px) translatey(0px);
+}
+
+@media (max-width:750px){
+
+	body.page-id-284 .op3-element > div > div > .op3-element > div > div > .op3-element > .op3-background-parent > div > div > .op3-element > .op3-text-wrapper p{
+	padding-top:30px;
+	}
+
+}
+
+
+
+@media (max-width:400px){
+
+	body.page-id-284 .op3-element > div > div > .op3-element > div > div > .op3-element > .op3-background-parent > div > div > .op3-element > .op3-text-wrapper p{
+	font-size:20px !important;
+	}
+
+}
+
+
+
+@media (max-width:360px){
+
+	body.page-id-284 .op3-background-parent div div .op3-element div div .op3-element .op3-background-parent div div .op3-element .op3-headline-wrapper div h2{
+	font-size:32px !important;
+	line-height:1.8em !important;
+}
+
+body.page-id-284 .op3-element > div > div > .op3-element > div > div > .op3-element > .op3-background-parent > div > div > .op3-element > .op3-text-wrapper p{
+	text-align:left !important;
+	font-size:26px !important;
+	line-height:1.7em !important;
+	}
+
+}
+
+
+
+/*-----------------------------------------------*/
+/*  "Metody" Page                                */
+/*-----------------------------------------------*/
+@media (max-width:650px){
+
+	body.page-id-30 #main > div > div > .op3-element > div > div > .op3-element > div > div > .op3-element .op3-background-parent > div > div{
+	padding-bottom:22px;
+	}
+
+}
+
+
+
+@media (max-width:400px){
+
+	body.page-id-30 #main > div > div > .op3-element > div > div > .op3-element > div > div > .op3-element .op3-background-parent > div > div > .op3-element p{
+	font-size:20px !important;
+}
+
+body.page-id-30 .op3-element div h1{
+	font-size:37px !important;
+	}
+
+}
+
+
+
+/*-----------------------------------------------*/
+/*  "Met. Shouldice" Page                        */
+/*-----------------------------------------------*/
+@media (max-width:650px){
+
+	body.page-id-259 .op3-element > div > div > .op3-element > div > div > .op3-element > .op3-background-parent > div > div > .op3-element > figure img{
+	position:static;
+	left:55px;
+	margin-right:152px;
+	display:inline-block;
+	-webkit-transform:translatex(0px) translatey(0px) !important;	-ms-transform:translatex(0px) translatey(0px) !important;	transform:translatex(0px) translatey(0px) !important;
+}
+
+body.page-id-259 .op3-element:nth-child(9) div:nth-child(1) div:nth-child(1) .op3-element:nth-child(3) .op3-background-parent:nth-child(1) > div:nth-child(1) > div:nth-child(1){
+
+	position:relative;
+	left:137px;
+	}
+
+}
+
+
+
+/*-----------------------------------------------*/
+/*  "Modyfikacje Bassiniego" Page                */
+/*-----------------------------------------------*/
+body.page-id-278 #main > div > div > .op3-element > div > div > .op3-element > div > div > .op3-element > .op3-background-parent > div > div > .op3-element p{
+	text-align:center !important;
+}
+
+body.page-id-278 .op3-element > div > div > .op3-element > div > div > .op3-element > .op3-background-parent > div > div > .op3-element > .op3-headline-wrapper h2{
+	letter-spacing:0px !important;
+}
+
+@media (max-width:650px){
+
+	body.page-id-278 .op3-element > div > div > .op3-element > div > div > .op3-element > .op3-background-parent > div > div > .op3-element > .op3-headline-wrapper h2{
+	line-height:1.9em !important;
+	}
+
+}
+
+
+
+@media (max-width:500px){
+
+	body.page-id-278 #main div h3{
+	padding-top:35px;
+	}
+
+}
+
+
+
+@media (max-width:400px){
+
+	body.page-id-278 .op3-element > div > div > .op3-element > div > div > .op3-element > .op3-background-parent > div > div > .op3-element > .op3-headline-wrapper h2{
+	font-size:23px !important;
+	line-height:1.9em;
+	}
+
+}
+
+
+
+@media (max-width:360px){
+
+	body.page-id-278 .op3-element > div > div > .op3-element > div > div > .op3-element > .op3-background-parent > div > div > .op3-element > .op3-headline-wrapper h2{
+	font-size:25px !important;
+	line-height:1.8em !important;
+	color:#2980b9 !important;
+}
+
+body.page-id-278 #main > div > div > .op3-element > div > div > .op3-element > div > div > .op3-element > .op3-background-parent > div > div > .op3-element p{
+	text-align:left !important;
+	}
+
+}
+
+
+
+/*-----------------------------------------------*/
+/*  "Czy siatka może się rozerwać?" Post      */
+/*-----------------------------------------------*/
+@media (max-width:650px){
+
+	body.postid-676 .op-blog-post-header .op-headline a{
+	color:#f1c40f;
+	}
+
+}
+
+
+
+/*-----------------------------------------------*/
+/*  "Siatka przepuklinowa" Page                  */
+/*-----------------------------------------------*/
+@media (max-width:450px){
+
+	body.page-id-199 .mobile-header-large h2 span{
+	font-size:38px;
+	line-height:1.5em;
+}
+
+body.page-id-199 .op3-background-parent div div .op3-element div div .op3-element .op3-background-parent div div .op3-element .op3-headline-wrapper div h2{
+	line-height:1.7em !important;
+	}
+
+}
+
+
+
+@media (max-width:420px){
+
+	body.page-id-199 .mobile-header-large div h1{
+	font-size:33px !important;
+	}
+
+}
+
+
+
+/*-----------------------------------------------*/
+/*  "Met. Bassiniego" Page                       */
+/*-----------------------------------------------*/
+@media (max-width:700px){
+
+	body.page-id-275 .op3-element > div > div > .op3-element > div > div > .op3-element > .op3-background-parent > div > div > .op3-element > .op3-headline-wrapper h2{
+	letter-spacing:0px !important;
+	line-height:1.4em !important;
+	font-size:44px !important;
+}
+
+body.page-id-275 #main > div > div > .op3-element > div > div > .op3-element > div > div > .op3-element > .op3-background-parent > div > div > .op3-element p{
+	text-align:center !important;
+	font-size:20px !important;
+	}
+
+}
+
+
+
+@media (max-width:360px){
+
+	body.page-id-275 .op3-element > div > div > .op3-element > div > div > .op3-element > .op3-background-parent > div > div > .op3-element > .op3-headline-wrapper h2{
+	font-size:33px !important;
+	}
+
+}
+
+
+
+/*-----------------------------------------------*/
+/*  "Bez operacji" Page                          */
+/*-----------------------------------------------*/
+@media (max-width:2166px){
+
+	body.page-id-280 .op3-background-parent div div .op3-element div div .op3-element .op3-background-parent div div .op3-element div div .op3-element .op3-background-parent > div > div{
+	border-style:none !important;
+	}
+
+}
+
+
+
+@media (max-width:900px){
+
+	body.page-id-280 .op3-background-parent div div .op3-element div div .op3-element .op3-background-parent div div .op3-element div div .op3-element .op3-background-parent div div .op3-element .op3-headline-wrapper div h2{
+	font-size:38px !important;
+	}
+
+}
+
+
+
+@media (max-width:850px){
+
+	body.page-id-280 .op3-background-parent div div .op3-element div div .op3-element .op3-background-parent div div .op3-element div div .op3-element .op3-background-parent div div .op3-element .op3-headline-wrapper div h2{
+	font-size:27px !important;
+	line-height:2.1em !important;
+}
+
+body.page-id-280 #main > div > div > .op3-element > div > div > .op3-element{
+	-webkit-transform:translatex(0px) translatey(0px);	-ms-transform:translatex(0px) translatey(0px);	transform:translatex(0px) translatey(0px);
+}
+
+body.page-id-280 .op3-element > div > div > .op3-element > div > div > .op3-element > .op3-background-parent > div > div > .op3-element > div > div > .op3-element > .op3-background-parent > div > div > .op3-element > .op3-headline-wrapper h2{
+	font-size:36px !important;
+	}
+
+}
+
+
+
+/*-----------------------------------------------*/
+/*  "Koszty" Page                                */
+/*-----------------------------------------------*/
+body.page-id-282 .op3-background-parent div div .op3-element div div .op3-element .op3-background-parent div div .op3-element .op3-text-wrapper div p{
+	text-align:left !important;
+}
+
+body.page-id-282 .navbar-nav .sub-menu a{
+	font-size:15px !important;
+}
+
+@media (max-width:600px){
+
+	body.page-id-282 #main > div > div > .op3-element > div > div > .op3-element{
+	-webkit-transform:translatex(0px) translatey(0px);	-ms-transform:translatex(0px) translatey(0px);	transform:translatex(0px) translatey(0px);
+	text-align:left;
+	}
+
+}
+
+
+
+/*-----------------------------------------------*/
+/*  "Ból przewlekły po operacji przepukliny" Post*/
+/*-----------------------------------------------*/
+body.postid-825 #primary .op-entry{
+	-webkit-transform:translatex(0px) translatey(0px);	-ms-transform:translatex(0px) translatey(0px);	transform:translatex(0px) translatey(0px);
+}
+
+body.postid-825 .dataframe tr td{
+	font-size:17px;
+	letter-spacing:-0.5px;
+	border-right-style:dotted;
+}
+
+body.postid-825 #page #main .hentry #primary .op-entry .row .col-md-offset-2 .entry-content .dataframe tbody tr td{
+	border-right-width:1px !important;
+}
+
+body.postid-825 .dataframe tr th{
+	min-width:0px;
+}
+
+body.postid-825 #page #main .hentry #primary .op-entry .row .col-md-offset-2 .entry-content .dataframe thead tr th{
+	width:367px !important;
+}
+
+body.postid-825 .dcf-table-striped thead th{
+	font-size:15px;
+	margin-right:20px;
+}
+
+body.postid-825 .dcf-table-striped tbody tr{
+	font-size:13px;
+	letter-spacing:0px;
+}
+
+body.postid-825 .op-entry .dcf-table-striped thead{
+	color:#3498db;
+}
+
+body.postid-825 .op-entry .dcf-table-striped{
+	-webkit-transform:translatex(0px) translatey(0px);	-ms-transform:translatex(0px) translatey(0px);	transform:translatex(0px) translatey(0px);
+}
+
+body.postid-825 .dcf-table-striped tr td{
+	position:relative;
+	left:-7px;
+	min-width:45px;
+	padding-right:16px;
+}
+
+body.postid-825 .dcf-table-striped tbody th{
+	padding-right:29px;
+}
+
+
+
+/*-----------------------------------------------*/
+/*  "W szpitalu" Page                            */
+/*-----------------------------------------------*/
+body.page-id-742 #main span a{
+	font-size:18px;
+	color:#e74c3c;
+	font-weight:500;
+	letter-spacing:-0.9px;
+	text-decoration:underline;
+	font-style:normal;
+	font-family:'Strait', sans-serif;
+}
+
+
+
+/*-----------------------------------------------*/
+/*  "Co wybrać dla siebie?" Page                */
+/*-----------------------------------------------*/
+body.page-id-1048 .op-blog-post-header .op-blog-header-content--small{
+	background-image:url("https://przepuklinabezsiatki.pl/wp-content/uploads/chirurg-na-sali-operacyjnej.webp");
+	background-position-y:38%;
+	background-blend-mode:normal;
+	background-attachment:scroll;
+	-webkit-backdrop-filter:blur(1.19px) brightness(0) contrast(0) saturate(0);	backdrop-filter:blur(1.19px) brightness(0) contrast(0) saturate(0);
+}
+
+body.page-id-1048 .op-entry h2{
+	color:#3498db;
+}
+
+body.page-id-1048 .op-blog-post-header .op-headline a{
+	color:#34495e;
+	background-blend-mode:screen;
+}
+
+@media (min-width:768px){
+
+	body.page-id-1048 .op-entry h2{
+	font-size:32px;
+	line-height:1.6em;
+	}
+
+}
+
+
+
+/*-----------------------------------------------*/
+/*  "Nawrót dolegliwości po laparoskopowej operacji przepukliny" Post*/
+/*-----------------------------------------------*/
+body.postid-1709 .op-entry h2{
+	color:#2980b9;
+}
+
+body.postid-1709 .op-entry h3{
+	color:#3498db;
+}
+
+@media (min-width:768px){
+
+	body.postid-1709 .op-entry h2{
+	line-height:1.2em;
+}
+
+body.postid-1709 .op-entry h3{
+	line-height:1.5em;
+	}
+
+}
+
+
+
+/*-----------------------------------------------*/
+/*  "Wstęp" Page                                */
+/*-----------------------------------------------*/
+body.page-id-1727 #page{
+	padding-top:0px;
+}
+
+body.page-id-1727 .op3-element > div > div > .op3-element > div > div > .op3-element > .op3-background-parent > div > div > .op3-element > div > div > .op3-element > .op3-background-parent > div > div > .op3-element > .op3-headline-wrapper h2{
+	font-family:'Archivo Narrow', sans-serif !important;
+	font-weight:500 !important;
+	font-size:30px !important;
+}
+
+body.page-id-1727 .op3-element > div > div > .op3-element > div > div > .op3-element > .op3-background-parent > div > div > .op3-element > .op3-headline-wrapper div{
+	font-family:'Lato', sans-serif;
+	-webkit-transform:translatex(0px) translatey(0px);	-ms-transform:translatex(0px) translatey(0px);	transform:translatex(0px) translatey(0px);
+}
+
+body.page-id-1727 #main > div > div > .op3-element > div > div > .op3-element{
+	-webkit-transform:translatex(0px) translatey(0px);	-ms-transform:translatex(0px) translatey(0px);	transform:translatex(0px) translatey(0px);
+}
+
+body.page-id-1727 .op3-element > div > div > .op3-element > div > div > .op3-element > .op3-background-parent > div > div > .op3-element{
+	font-family:Archivo Narrow, sans-serif;
+}
+
+body.page-id-1727 .op3-element > div > div > .op3-element > div > div > .op3-element > .op3-background-parent > div > div > .op3-element > .op3-headline-wrapper h2{
+	font-family:Archivo Narrow, sans-serif !important;
+}
+
+body.page-id-1727 #main > div > div > .op3-element{
+	font-family:Archivo Narrow, sans-serif;
+}
+
+body.page-id-1727 #main > div > div{
+	font-family:Archivo Narrow, sans-serif;
+	-webkit-transform:translatex(0px) translatey(0px);	-ms-transform:translatex(0px) translatey(0px);	transform:translatex(0px) translatey(0px);
+}
+
+body.page-id-1727 .op3-element > div > div > .op3-element > div > div > .op3-element > .op3-background-parent > div > div > .op3-element > div > div > .op3-element > div{
+	font-family:Archivo Narrow, sans-serif;
+}
+
+body.page-id-1727 .op3-element > div > div > .op3-element > div > div > .op3-element > .op3-background-parent > div > div > .op3-element > .op3-headline-wrapper h1{
+	font-family:Archivo Narrow, sans-serif !important;
+}
+
+body.page-id-1727 #main > div > div > .op3-element > div > div{
+	font-family:Archivo Narrow, sans-serif;
+}
+
+body.page-id-1727 .op3-background-parent div div .op3-element div div .op3-element .op3-background-parent div div .op3-element div div .op3-element .op3-background-parent div div .op3-element .op3-headline-wrapper div h2{
+	font-family:Archivo Narrow, sans-serif !important;
+}
+
+body.page-id-1727 .op3-element > div > div > .op3-element > div > div > .op3-element > .op3-background-parent > div > div > .op3-element > .op3-text-wrapper p{
+	font-family:Archivo Narrow, sans-serif !important;
+}
+
+body.page-id-1727 #main div div .op3-element > div > div > .op3-element > div > div > .op3-element > .op3-background-parent > div > div > .op3-element > div > div > .op3-element > .op3-background-parent > div > div > .op3-element > .op3-text-wrapper div p{
+	font-family:Archivo Narrow, sans-serif;
+}
+
+body.page-id-1727 .op3-element .op3-text-wrapper h2{
+	font-family:Archivo Narrow, sans-serif !important;
+}
+
+body.page-id-1727 .op3-element div div .op3-element .op3-background-parent div div .op3-element div div .op3-element .op3-background-parent div div .op3-element div div .op3-element .op3-background-parent div div .op3-element .op3-headline-wrapper div h4{
+	font-family:Archivo Narrow, sans-serif !important;
+}
+
+
+
+/*-----------------------------------------------*/
+/*  "Out" Page                                   */
+/*-----------------------------------------------*/
+body.page-id-1838 #page{
+	padding-top:0px;
+}
+
+body.page-id-1838 .op3-element > div > div > .op3-element > div > div > .op3-element > .op3-background-parent > div > div > .op3-element > div > div > .op3-element > .op3-background-parent > div > div > .op3-element > .op3-headline-wrapper h2{
+	font-family:'Archivo Narrow', sans-serif !important;
+	font-weight:500 !important;
+	font-size:30px !important;
+}
+
+body.page-id-1838 .op3-element > div > div > .op3-element > div > div > .op3-element > .op3-background-parent > div > div > .op3-element > .op3-headline-wrapper div{
+	font-family:'Lato', sans-serif;
+	-webkit-transform:translatex(0px) translatey(0px);	-ms-transform:translatex(0px) translatey(0px);	transform:translatex(0px) translatey(0px);
+}
+
+body.page-id-1838 #main > div > div > .op3-element > div > div > .op3-element{
+	-webkit-transform:translatex(0px) translatey(0px);	-ms-transform:translatex(0px) translatey(0px);	transform:translatex(0px) translatey(0px);
+}
+
+body.page-id-1838 .op3-element > div > div > .op3-element > div > div > .op3-element > .op3-background-parent > div > div > .op3-element{
+	font-family:Archivo Narrow, sans-serif;
+}
+
+body.page-id-1838 .op3-element > div > div > .op3-element > div > div > .op3-element > .op3-background-parent > div > div > .op3-element > .op3-headline-wrapper h2{
+	font-family:Archivo Narrow, sans-serif !important;
+}
+
+body.page-id-1838 #main > div > div > .op3-element{
+	font-family:Archivo Narrow, sans-serif;
+}
+
+body.page-id-1838 #main > div > div{
+	font-family:Archivo Narrow, sans-serif;
+	-webkit-transform:translatex(0px) translatey(0px);	-ms-transform:translatex(0px) translatey(0px);	transform:translatex(0px) translatey(0px);
+}
+
+body.page-id-1838 .op3-element > div > div > .op3-element > div > div > .op3-element > .op3-background-parent > div > div > .op3-element > div > div > .op3-element > div{
+	font-family:Archivo Narrow, sans-serif;
+}
+
+body.page-id-1838 .op3-element > div > div > .op3-element > div > div > .op3-element > .op3-background-parent > div > div > .op3-element > .op3-headline-wrapper h1{
+	font-family:Archivo Narrow, sans-serif !important;
+}
+
+body.page-id-1838 #main > div > div > .op3-element > div > div{
+	font-family:Archivo Narrow, sans-serif;
+}
+
+body.page-id-1838 .op3-background-parent div div .op3-element div div .op3-element .op3-background-parent div div .op3-element div div .op3-element .op3-background-parent div div .op3-element .op3-headline-wrapper div h2{
+	font-family:Archivo Narrow, sans-serif !important;
+}
+
+body.page-id-1838 .op3-element > div > div > .op3-element > div > div > .op3-element > .op3-background-parent > div > div > .op3-element > .op3-text-wrapper p{
+	font-family:Archivo Narrow, sans-serif !important;
+}
+
+body.page-id-1838 #main div div .op3-element > div > div > .op3-element > div > div > .op3-element > .op3-background-parent > div > div > .op3-element > div > div > .op3-element > .op3-background-parent > div > div > .op3-element > .op3-text-wrapper div p{
+	font-family:Archivo Narrow, sans-serif;
+}
+
+body.page-id-1838 .op3-element .op3-text-wrapper h2{
+	font-family:Archivo Narrow, sans-serif !important;
+}
+
+body.page-id-1838 .op3-element div div .op3-element .op3-background-parent div div .op3-element div div .op3-element .op3-background-parent div div .op3-element div div .op3-element .op3-background-parent div div .op3-element .op3-headline-wrapper div h4{
+	font-family:Archivo Narrow, sans-serif !important;
+}
+
+
+
+/*-----------------------------------------------*/
+/*  "Opinie chorych" Page                        */
+/*-----------------------------------------------*/
+body.page-id-1860 .navbar-nav > .menu-item > a{
+	color:#16405f !important;
+}
+
+body.page-id-1860 .navbar-header a h1{
+	color:#e67e22;
+	font-size:27px;
+}
+
+body.page-id-1860 .footer-copyright p a{
+	display:none;
+}
+
+@media (max-width:700px){
+
+	body.page-id-1860 .op3-element > div > div > .op3-element > div > div > .op3-element > .op3-background-parent > div > div > .op3-element > .op3-headline-wrapper h2{
+	line-height:2.2em !important;
+	}
+
+}
+
+
+
+@media (max-width:650px){
+
+	body.page-id-1860 .op3-background-parent div div .op3-element div div .op3-element .op3-background-parent div div .op3-element .op3-headline-wrapper div h2{
+	line-height:1.4em !important;
+}
+
+body.page-id-1860 .op3-element > div > div > .op3-element > div > div > .op3-element > .op3-background-parent > div > div > .op3-element > .op3-headline-wrapper h2{
+	line-height:2.1em !important;
+	font-size:26px !important;
+}
+
+body.page-id-1860 .op3-element:nth-child(13) > div:nth-child(1) > div:nth-child(1){
+
+	width:721px;
+	min-height:106px;
+	}
+
+}
+
+
+
+/*-----------------------------------------------*/
+/*  "Konsultacje" Page                           */
+/*-----------------------------------------------*/
+body.page-id-286 #main > div > div > .op3-element > div > div{
+	margin-top:2px;
+	-webkit-transform:translatex(0px) translatey(0px);	-ms-transform:translatex(0px) translatey(0px);	transform:translatex(0px) translatey(0px);
+	padding-top:0px;
+	padding-bottom:51px;
+}
+
+@media (min-width:1024px){
+
+	body.page-id-286 #main > div > div > .op3-element{
+	padding-bottom:0px !important;
+	padding-top:0px !important;
+	}
+
+}
+
+
+
+/*-----------------------------------------------*/
+/*  "On-line" Page                               */
+/*-----------------------------------------------*/
+body.page-id-1144 .op3-background-parent > div > div > .op3-element > .op3-text-wrapper > div{
+	color:#2980b9;
+	font-size:16px;
+	-webkit-transform:translatex(0px) translatey(0px);	-ms-transform:translatex(0px) translatey(0px);	transform:translatex(0px) translatey(0px);
+	padding-top:0px;
+	position:relative;
+}
+
+body.page-id-1144 .init p input[type=text]{
+	background-color:#bdc3c7;
+}
+
+body.page-id-1144 .init input[type=tel], body.page-id-1144 .init input[type=email]{
+	background-color:#bdc3c7;
+}
+
+body.page-id-1144 .init p textarea{
+	background-color:#bdc3c7;
+}
+
+body.page-id-1144 #main > div > div > .op3-element > div > div{
+	-webkit-transform:translatex(0px) translatey(0px);	-ms-transform:translatex(0px) translatey(0px);	transform:translatex(0px) translatey(0px);
+}
+
+body.page-id-1144 .init p label{
+	position:relative;
+	top:-23px;
+}

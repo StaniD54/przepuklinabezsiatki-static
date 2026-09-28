@@ -1,0 +1,1 @@
+!function(e,t,n){"use strict";var c=function(t){e(t.currentTarget).toggleClass("active").closest('[data-op3-element-type="switcher"]').find('[data-op3-element-type="switchercontentitem"]').toggleClass("active")};e(function(){e('[data-op3-element-type="switcher"] .slider').on("click",c)})}(jQuery,window,document);
