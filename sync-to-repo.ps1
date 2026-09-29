@@ -64,11 +64,13 @@ git add -A
 git status --short | Select-Object -First 40
 $cnt = (git status --short | Measure-Object).Count
 Write-Host "Zmienionych plikow: $cnt"
-if ($cnt -eq 0) { Write-Host "Brak zmian - nic do wyslania." -ForegroundColor Green; Read-Host "Enter aby zamknac"; exit 0 }
 Read-Host "Enter = commit i wyslanie na Cloudflare  (Ctrl+C = przerwij)"
-$date = Get-Date -Format "yyyy-MM-dd HH:mm"
-git commit -q -m "aktualizacja strony statycznej $date"
+if ($cnt -gt 0) {
+    $date = Get-Date -Format "yyyy-MM-dd HH:mm"
+    git commit -q -m "aktualizacja strony statycznej $date"
+} else { Write-Host "Brak nowych zmian - wysylam ewentualne zalegle commity." -ForegroundColor Green }
 git push origin main
+if ($LASTEXITCODE -ne 0) { Write-Host "`nBLAD: wysylanie na GitHub nie powiodlo sie - skopiuj komunikat powyzej." -ForegroundColor Red; Read-Host "Enter aby zamknac"; exit 1 }
 
 Write-Host "`n=== Gotowe - Cloudflare Pages zbuduje strone w ciagu 1-2 min ===" -ForegroundColor Cyan
 Read-Host "Enter aby zamknac"
