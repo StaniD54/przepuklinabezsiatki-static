@@ -1,4 +1,4 @@
-﻿# sync-to-repo.ps1  (wersja 2026-09-26)
+# sync-to-repo.ps1  (wersja 2026-09-26)
 # Kopiuje eksport Simply Static do repo przepuklinabezsiatki-static i wysyla na GitHub -> Cloudflare Pages
 # Uzycie: 1) WP-admin (http://bezsiatki626.test/wp-admin) -> Simply Static -> Generate
 #         2) uruchom ten skrypt
@@ -7,7 +7,7 @@ $EXPORT = "C:\laragon\tmp\bezsiatki-static-export"   # tu Simply Static zapisuje
 $WP     = "C:\laragon\www\bezsiatki626"               # WordPress (zrodlo themes/uploads)
 $REPO   = "C:\laragon\www\przepuklinabezsiatki-static"
 
-$EXCLUDE_UPLOADS = @("simply-static", "iawp-geo-db.mmdb", "ai1wm-backups", "wp-cloudflare-super-page-cache", "wpmc-trash", "wpcf7_uploads")
+$EXCLUDE_UPLOADS = @("simply-static", "iawp-geo-db.mmdb", "ai1wm-backups", "wp-cloudflare-super-page-cache", "wpmc-trash", "wpcf7_uploads", "adbc_uploads_*")
 
 Write-Host "=== Sync Simply Static -> repo ===" -ForegroundColor Cyan
 
@@ -45,7 +45,7 @@ Copy-Item -Recurse -Force $themeSrc $themeDest
 Write-Host "`n[2/4] Kopiowanie uploads..." -ForegroundColor Yellow
 $uploadSrc = Join-Path $WP "wp-content\uploads"; $uploadDest = Join-Path $REPO "wp-content\uploads"
 if (Test-Path $uploadDest) { Remove-Item -Recurse -Force $uploadDest }
-$xd = $EXCLUDE_UPLOADS | ForEach-Object { Join-Path $uploadSrc $_ }
+$xd = $EXCLUDE_UPLOADS
 robocopy $uploadSrc $uploadDest /E /MAX:25165824 /XD $xd /XF iawp-geo-db.mmdb /NFL /NDL /NJH /NP | Out-Null
 if ($LASTEXITCODE -ge 8) { Write-Host "  BLAD kopiowania uploads" -ForegroundColor Red; Read-Host; exit 1 }
 
