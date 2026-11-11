@@ -1,0 +1,8 @@
+# Przekierowania Cloudflare Pages dla przepuklinabezsiatki.pl
+# 2026-11-11: wycofane szkice i PDF z zaleceniami (decyzja wlasciciela)
+/landing/ / 301
+/landing / 301
+/out/ / 301
+/out / 301
+/wp-content/uploads/Zalecenia-po-operacji-przepukliny.pdf /po-szpitalu/ 301
+/wp-content/uploads/zalecenia-po-operacji-przepukliny.pdf /po-szpitalu/ 301
