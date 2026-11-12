@@ -6,3 +6,8 @@
 /out / 301
 /wp-content/uploads/Zalecenia-po-operacji-przepukliny.pdf /po-szpitalu/ 301
 /wp-content/uploads/zalecenia-po-operacji-przepukliny.pdf /po-szpitalu/ 301
+# 2026-11-11: stare adresy z mapy witryny (404)
+/siatka-zawedrowala-do-pecherza-moczowego/ /siatka-do-pecherza-moczowego/ 301
+/siatka-zawedrowala-do-pecherza-moczowego /siatka-do-pecherza-moczowego/ 301
+/met-desardy-cloned-at-2024-04-14-103543/ /desarda/ 301
+/met-desardy-cloned-at-2024-04-14-103543/* /desarda/ 301
